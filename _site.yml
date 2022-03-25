@@ -1,0 +1,21 @@
+name: "CEN 2023 Conference"
+output_dir: docs
+navbar:
+  title: "CEN 2023 Conference"
+  type: inverse
+  left:
+    - text: "About CEN 2023"
+      menu:
+        - text: "Date & Location"
+          href: index.html
+    - text: "Program"
+      menu:
+        - text: "TBD"
+          href: 
+  output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    include:
+      after_body: footer.html
+    css: styles.css

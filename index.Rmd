@@ -1,0 +1,35 @@
+---
+title: "CEN 2023 Conference"
+author: ""
+date: 'Last update: `r Sys.setlocale("LC_TIME", "C"); format(Sys.Date(), "%d %b %Y")`'
+output: 
+  rmarkdown::html_document:
+    highlight: pygments
+    number_sections: no
+    self_contained: yes
+    toc: yes
+    toc_depth: 2
+    toc_float: yes
+---
+
+# Save the date
+
+<font size="4">
+CEN 2023 will be the 6th Conference of the Central European Network and take place from <br> 
+<b>September $3^\text{rd}$ to $7^\text{th}$ 2023 at [Biozentrum](https://www.biozentrum.unibas.ch) in [Basel](https://www.basel.com)</b>.
+</font>
+
+It is a joint biometric conference of
+
+* the [Austro-Swiss Region (ROeS)](https://www.ibs-roes.org),
+* the [German Region (DR)](http://www.biometrische-gesellschaft.de) and
+* the [National Group Poland](https://ii.uni.wroc.pl/~aba/gpol_ibs.html)
+
+of the [International Biometric Society (IBS)](https://www.biometricsociety.org).
+
+
+# Contact information
+The local organizing team is currently being assembled:
+[Contact us](mailto:organizers@cen2023.ch)
+
+
