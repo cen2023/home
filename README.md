@@ -1,2 +1,2 @@
-# cen2023.ch Home Page
-Open source page for the CEN 2023 conference in Basel
+# http://www.cen2023.ch 
+Open source repository for the home page of the CEN 2023 conference in Basel
