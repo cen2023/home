@@ -15,7 +15,7 @@ output:
 # Save the date
 
 <font size="4">
-CEN 2023 will be the 6th Conference of the Central European Network and take place from <br> 
+CEN 2023 will be the $6^\text{th}$ Conference of the Central European Network and take place from <br> 
 <b>September $3^\text{rd}$ to $7^\text{th}$ 2023 at [Biozentrum](https://www.biozentrum.unibas.ch) in [Basel](https://www.basel.com)</b>.
 </font>
 
