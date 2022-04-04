@@ -25,7 +25,7 @@ It is a joint conference of
 * the [German Region (DR)](http://www.biometrische-gesellschaft.de) and
 * the [Polish Region](https://sparrow.up.poznan.pl/polbiom/index.php?lang=en)
 
-of the [International Biometric Society (IBS)](https://www.biometricsociety.org).
+of the [International Biometric Society (IBS)](https://www.biometricsociety.org) and supported by the [Basel Biometric society (BBS)](https://baselbiometrics.github.io/home/docs/index.html).
 
 
 # Contact information
