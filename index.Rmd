@@ -1,5 +1,5 @@
 ---
-title: "CEN 2023 Conference"
+title: "CEN2023 Conference"
 author: ""
 date: 'Last update: `r Sys.setlocale("LC_TIME", "C"); format(Sys.Date(), "%d %b %Y")`'
 output: 
@@ -15,8 +15,8 @@ output:
 # Save the date
 
 <font size="4">
-CEN 2023 will be the $6^\text{th}$ Conference of the Central European Network and take place from <br> 
-<b>September $3^\text{rd}$ to $7^\text{th}$ 2023 at [Biozentrum](https://www.biozentrum.unibas.ch) in [Basel](https://www.basel.com)</b>.
+CEN2023 will be the $6^\text{th}$ Conference of the [Central European Network](https://www.biometricsociety.org/about/regions-networks/central-european-network) and take place from <br> 
+<b> 3-7 September, 2023, at the [Biozentrum](https://www.biozentrum.unibas.ch) in [Basel](https://www.basel.com), Switzerland</b>.
 </font>
 
 It is a joint conference of
