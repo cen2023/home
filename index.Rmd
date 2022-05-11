@@ -11,6 +11,7 @@ output:
     toc_depth: 2
     toc_float: yes
 ---
+<br>
 
 # Save the date
 
@@ -29,9 +30,7 @@ of the [International Biometric Society (IBS)](https://www.biometricsociety.org)
 
 ![](img/logos/all_logos_small.png){width=50%}
 
+<br>
 
 # Contact information
-The local organizing team is currently being assembled:
 [Contact us](mailto:organizers@cen2023.ch)
-
-
