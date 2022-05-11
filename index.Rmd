@@ -27,7 +27,7 @@ CEN2023 is a joint conference of
 
 of the [International Biometric Society (IBS)](https://www.biometricsociety.org) and supported by the [Basel Biometric society (BBS)](https://baselbiometrics.github.io/home/docs/index.html):
 
-![](img/logos/all_logos_small_2.png){width=50%}
+![](img/logos/all_logos_small.png){width=50%}
 
 
 # Contact information

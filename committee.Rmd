@@ -1,0 +1,43 @@
+---
+title: "CEN2023 Committee"
+output: 
+  rmarkdown::html_document:
+    highlight: pygments
+    number_sections: no
+    self_contained: yes
+    toc: yes
+    toc_depth: 2
+    toc_float: yes
+---
+```{r, echo=F, results=F, message=F, warning=F}
+library(tibble)
+library(dplyr)
+library(readxl)
+library(knitr)
+library(kableExtra)
+
+committee <- read_excel("data/committee.xlsx")
+committee$Name <- paste(committee$First, committee$Last, sep = " ")
+
+executive_committee  <- filter(committee, executive == 1)
+scientific_committee <- filter(committee, scientific == 1)
+local_committee      <- filter(committee, local == 1)
+
+print_committee <- function(data) {
+  kable(data %>% select(Name, Affiliation)) %>%
+    kable_styling(bootstrap_options = c("striped", "hover"))
+}
+```
+
+## Executive committee
+```{r, echo=F, include=T}
+print_committee(executive_committee)
+```
+## Scientific committee
+```{r, echo=F, include=T}
+print_committee(scientific_committee)
+```
+## Local committee
+```{r, echo=F, include=T}
+print_committee(local_committee)
+```

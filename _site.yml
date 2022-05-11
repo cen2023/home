@@ -8,6 +8,8 @@ navbar:
       menu:
         - text: "Date & Location"
           href: index.html
+        - text: "Committee"
+          href: committee.html
     - text: "Program"
       menu:
         - text: "TBD"
