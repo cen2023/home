@@ -1,0 +1,76 @@
+---
+title: "Key Dates"
+output: 
+  rmarkdown::html_document:
+    highlight: pygments
+    number_sections: no
+    self_contained: yes
+    toc: no
+    toc_depth: 2
+    toc_float: yes
+---
+```{r, echo=F, results=F, message=F, warning=F}
+Sys.setlocale("LC_ALL","English")
+library(tibble)
+library(dplyr)
+library(knitr)
+library(kableExtra)
+library(lubridate)
+
+key_dates <- list()
+
+key_dates[["Invited and topic-contributed sessions"]] <- 
+  tribble(
+    ~Date, ~Event,
+    ymd("2022-08-01"), "Call for proposals",
+    ymd("2022-10-31"), "Deadline for proposal submissions",
+    ymd("2022-11-15"), "Notifications about proposals"
+  )
+
+key_dates[["Short courses"]] <- 
+  tribble(
+    ~Date, ~Event,
+    ymd("2022-10-15"), "Call for proposals",
+    ymd("2023-01-15"), "Deadline for proposal submissions",
+    ymd("2023-02-15"), "Notifications about proposals"
+  )
+
+key_dates[["Abstracts and posters"]] <- 
+  tribble(
+    ~Date, ~Event,
+    ymd("2022-12-01"), "Call for submissions",
+    ymd("2023-02-28"), "Deadline for submissions",
+    ymd("2023-03-31"), "Notifications about submissions"
+  )
+
+key_dates[["Registration"]] <- 
+  tribble(
+    ~Date, ~Event,
+    paste0(format(ymd("2023-04-01"),"%A, %d.%m.%Y"), " to ", format(ymd("2023-05-31"),"%A, %d.%m.%Y")), "Early bird registration",
+    paste0("From ", format(ymd("2023-06-01"),"%A, %d.%m.%Y")), "Regular registration"
+  )
+
+
+
+print_dates <- function(data) {
+  if (class(data$Date[0]) == "Date") {
+    data <- mutate(data, Date = format(Date,"%A, %d.%m.%Y"))
+  }
+  kable(data) %>%
+    column_spec(1, width = "25%") %>%
+    kable_styling(bootstrap_options = c("striped", "hover"))
+}
+```
+
+```{r, echo=F, include=T, results="asis"}
+
+for (date_type in names(key_dates)){
+  cat("\n### ", date_type, "\n")
+  
+  cat(print_dates(key_dates[[date_type]]))
+}
+
+
+
+```
+

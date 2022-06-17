@@ -16,7 +16,7 @@ library(readxl)
 library(knitr)
 library(kableExtra)
 
-committee <- read_excel("data/committee.xlsx")
+committee <- read_excel("data/committee.xlsx") %>% arrange(Last)
 committee$Name <- paste(committee$First, committee$Last, sep = " ")
 
 executive_committee  <- filter(committee, executive == 1)
@@ -25,6 +25,7 @@ local_committee      <- filter(committee, local == 1)
 
 print_committee <- function(data) {
   kable(data %>% select(Name, Affiliation)) %>%
+    column_spec(1, width = "30%") %>%
     kable_styling(bootstrap_options = c("striped", "hover"))
 }
 ```

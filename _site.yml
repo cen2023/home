@@ -6,10 +6,21 @@ navbar:
   left:
     - text: "About CEN 2023"
       menu:
-        - text: "Date & Location"
+        - text: "Overview"
           href: index.html
         - text: "Committee"
           href: committee.html
+          
+    - text: "Conference information"
+      menu:
+        # - text: "Overview"
+        #   href: index.html
+        - text: "Key dates"
+          href: dates.html
+        # - text: "Accomodation"
+        #   href: accomodation.html
+        # - text: "Getting around"
+        #   href: getting_around.html
     - text: "Program"
       menu:
         - text: "TBD"

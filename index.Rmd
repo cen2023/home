@@ -1,5 +1,5 @@
 ---
-title: "CEN2023 Conference"
+title: "From Data to Knowledge. <br>Advancing Life Sciences."
 author: ""
 date: 'Last update: `r Sys.setlocale("LC_TIME", "C"); format(Sys.Date(), "%d %b %Y")`'
 output: 
@@ -11,13 +11,12 @@ output:
     toc_depth: 2
     toc_float: yes
 ---
-<br>
+![](img/basel.jpg)
 
-# Save the date
-
+# CEN2023 Conference
 <font size="4">
-CEN2023 will be the $6^\text{th}$ Conference of the [Central European Network](https://www.biometricsociety.org/about/regions-networks/central-european-network) and take place from <br> 
-<b> 3-7 September, 2023, at the [Biozentrum](https://www.biozentrum.unibas.ch) in [Basel](https://www.basel.com), Switzerland</b>.
+The $5^\text{th}$ Conference of the [Central European Network](https://www.biometricsociety.org/about/regions-networks/central-european-network) will take place from <br> 
+<b> 3-7 September, 2023, at the [Biozentrum](https://www.biozentrum.unibas.ch) of the [University](https://www.unibas.ch/en) of [Basel](https://www.basel.com), Switzerland</b>.
 </font>
 
 CEN2023 is a joint conference of
@@ -28,9 +27,13 @@ CEN2023 is a joint conference of
 
 of the [International Biometric Society (IBS)](https://www.biometricsociety.org) and supported by the [Basel Biometric society (BBS)](https://baselbiometrics.github.io/home/docs/index.html):
 
-![](img/logos/all_logos_small.png){width=50%}
+![](img/logos/all_logos_small_ub.png){width=80%}
 
 <br>
 
 # Contact information
 [Contact us](mailto:organizers@cen2023.ch)
+
+<br>
+
+# Thank you to our sponsors
