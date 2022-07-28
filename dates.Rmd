@@ -22,7 +22,7 @@ key_dates <- list()
 key_dates[["Invited and topic-contributed sessions"]] <- 
   tribble(
     ~Date, ~Event,
-    ymd("2022-08-01"), "Call for proposals",
+    ymd("2022-08-01"), "Call for proposals <a href='calls.html'><b><font color='red'>-&gt; NOW OPEN &lt;-</font></b></a>",
     ymd("2022-10-31"), "Deadline for proposal submissions",
     ymd("2022-11-15"), "Notifications about proposals"
   )
@@ -56,7 +56,7 @@ print_dates <- function(data) {
   if (class(data$Date[0]) == "Date") {
     data <- mutate(data, Date = format(Date,"%A, %d.%m.%Y"))
   }
-  kable(data) %>%
+  kable(data, escape = F) %>%
     column_spec(1, width = "25%") %>%
     kable_styling(bootstrap_options = c("striped", "hover"))
 }

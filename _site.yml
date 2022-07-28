@@ -17,6 +17,8 @@ navbar:
         #   href: index.html
         - text: "Key dates"
           href: dates.html
+        - text: "Open calls"
+          href: calls.html
         # - text: "Accomodation"
         #   href: accomodation.html
         # - text: "Getting around"

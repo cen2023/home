@@ -13,6 +13,9 @@ output:
 ---
 ![](img/basel.jpg)
 
+# Latest News
+<b>The call for invited and topic-contributed sessions is [<font color="red">now open!</font></b>](calls.html)
+
 # CEN2023 Conference
 <font size="4">
 The $5^\text{th}$ Conference of the [Central European Network](https://www.biometricsociety.org/about/regions-networks/central-european-network) will take place from <br> 
