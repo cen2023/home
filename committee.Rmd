@@ -1,5 +1,5 @@
 ---
-title: "CEN2023 Committee"
+title: "CEN2023 Committees"
 output: 
   rmarkdown::html_document:
     highlight: pygments

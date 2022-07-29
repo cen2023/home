@@ -39,7 +39,7 @@ key_dates[["Abstracts and posters"]] <-
   tribble(
     ~Date, ~Event,
     ymd("2022-12-01"), "Call for submissions",
-    ymd("2023-02-28"), "Deadline for submissions",
+    ymd("2023-02-14"), "Deadline for submissions",
     ymd("2023-03-31"), "Notifications about submissions"
   )
 
