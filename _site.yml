@@ -8,7 +8,7 @@ navbar:
       menu:
         - text: "Overview"
           href: index.html
-        - text: "Committee"
+        - text: "Committees"
           href: committee.html
           
     - text: "Conference information"
