@@ -14,7 +14,8 @@ output:
 ![](img/basel.jpg)
 
 # Latest News
-<b>The call for invited and topic-contributed sessions is [<font color="red">now open!</font></b>](calls.html)
+<b>The calls for short course proposals as well invited and topic-contributed sessions are <font color="red">[now open!](calls.html) Note the deadline for invited and topic-contributed sessions is Monday, 31.10.2022!</font></b>
+<br><br>
 
 # CEN2023 Conference
 <font size="4">

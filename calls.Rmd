@@ -10,6 +10,12 @@ output:
     toc_float: yes
 ---
 
+## Short courses
+We are pleased to announce that the call for short courses is <font color="red">now open</font>. It will close on <b>Sunday, 15.01.2023</b>, and notifications about proposals will be sent out on Wednesday, 15.02.2023.
+
+Please find here the [announcement](data/CEN 2023 Call_for_Short_Courses - final.pdf), as well as the [submission form](https://docs.google.com/forms/d/e/1FAIpQLSd0w9owvLdP6h25MIAbkCXemlK3vWg6GgPj6GemXlcNdGcODg/viewform?hl=en).
+
+
 ## Invited and topic-contributed sessions
 We are pleased to announce that the call for invited and topic-contributed sessions is <font color="red">now open</font>. It will close on <b>Monday, 31.10.2022</b>, and notifications about proposals will be sent out on Tuesday, 15.11.2022.
 
