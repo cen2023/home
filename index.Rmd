@@ -16,12 +16,13 @@ output:
 # Latest News
 <b>The call for short course proposals is <font color="red">[now open!](calls.html) </font></b>
 <br><br>
-<b>Invited and topic-contributed session proposals can still be submitted <font color="red">[here](calls.html) </font> until 31.10.2022.</b>
+<b>The call for invited and topic-contributed session proposals is now closed. <br>
+Notifications about submitted proposals will be sent out on November 17<sup>th</sup>, 2022.</b>
 <br><br>
 
 # CEN2023 Conference
 <font size="4">
-The $5^\text{th}$ Conference of the [Central European Network](https://www.biometricsociety.org/about/regions-networks/central-european-network) will take place from <br> 
+The 5<sup>th</sup> Conference of the [Central European Network](https://www.biometricsociety.org/about/regions-networks/central-european-network) will take place from <br> 
 <b> 3-7 September, 2023, at the [Biozentrum](https://www.biozentrum.unibas.ch) of the [University](https://www.unibas.ch/en) of [Basel](https://www.basel.com), Switzerland</b>.
 </font>
 
