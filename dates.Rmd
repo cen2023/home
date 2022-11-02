@@ -23,7 +23,7 @@ key_dates[["Invited and topic-contributed sessions"]] <-
   tribble(
     ~Date, ~Event,
     ymd("2022-08-01"), "Call for proposals <b>CLOSED</b>",
-    ymd("2022-10-31"), "Deadline for proposal submissions <b>PASSED</b>",
+    ymd("2022-10-31"), "Deadline for proposal submissions <b>EXPIRED</b>",
     ymd("2022-11-17"), "Notifications about proposals"
   )
 
