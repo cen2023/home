@@ -11,34 +11,32 @@ output:
     toc_depth: 2
     toc_float: yes
 ---
+
 ![](img/basel.jpg)
 
 # Latest News
-<b>The call for short course proposals is <font color="red">[now open!](calls.html) </font></b>
-<br><br>
-<b>The call for invited and topic-contributed session proposals is now closed. <br>
-Notifications about submitted proposals will be sent out on November 17<sup>th</sup>, 2022.</b>
-<br><br>
+<b>The submission of abstracts for talks and posters is <font color="red">[now open!](https://www.conftool.pro/cen2023/) </font></b> <br>
+
+<b>The call for short course proposals is <font color="red">[now open!](calls.html) </font></b> <br><br>
 
 # CEN2023 Conference
-<font size="4">
-The 5<sup>th</sup> Conference of the [Central European Network](https://www.biometricsociety.org/about/regions-networks/central-european-network) will take place from <br> 
-<b> 3-7 September, 2023, at the [Biozentrum](https://www.biozentrum.unibas.ch) of the [University](https://www.unibas.ch/en) of [Basel](https://www.basel.com), Switzerland</b>.
-</font>
+
+<font size="4"> The 5<sup>th</sup> Conference of the [Central European Network](https://www.biometricsociety.org/about/regions-networks/central-european-network) will take place from <br> <b> 3-7 September, 2023, at the [Biozentrum](https://www.biozentrum.unibas.ch) of the [University](https://www.unibas.ch/en) of [Basel](https://www.basel.com), Switzerland</b>. </font>
 
 CEN2023 is a joint conference of
 
-* the [Austro-Swiss Region (ROeS)](https://www.ibs-roes.org),
-* the [German Region (DR)](http://www.biometrische-gesellschaft.de) and
-* the [Polish Region](https://sparrow.up.poznan.pl/polbiom/index.php?lang=en)
+-   the [Austro-Swiss Region (ROeS)](https://www.ibs-roes.org),
+-   the [German Region (DR)](http://www.biometrische-gesellschaft.de) and
+-   the [Polish Region](https://sparrow.up.poznan.pl/polbiom/index.php?lang=en)
 
 of the [International Biometric Society (IBS)](https://www.biometricsociety.org) and supported by the [Basel Biometric society (BBS)](https://baselbiometrics.github.io/home/docs/index.html):
 
-![](img/logos/all_logos_small_ub.png){width=80%}
+![](img/logos/all_logos_small_ub.png){width="80%"}
 
 <br>
 
 # Contact information
+
 [Contact us](mailto:organizers@cen2023.ch)
 
 <br>

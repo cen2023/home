@@ -24,7 +24,7 @@ key_dates[["Invited and topic-contributed sessions"]] <-
     ~Date, ~Event,
     ymd("2022-08-01"), "Call for proposals <b>CLOSED</b>",
     ymd("2022-10-31"), "Deadline for proposal submissions <b>EXPIRED</b>",
-    ymd("2022-11-17"), "Notifications about proposals"
+    ymd("2022-11-17"), "Notifications about proposals <b>SENT</b>"
   )
 
 key_dates[["Short courses"]] <- 
@@ -38,7 +38,7 @@ key_dates[["Short courses"]] <-
 key_dates[["Abstracts and posters"]] <- 
   tribble(
     ~Date, ~Event,
-    ymd("2022-12-01"), "Call for submissions",
+    ymd("2022-12-01"), "Call for submissions <a href='https://www.conftool.pro/cen2023/'><b><font color='red'>-&gt; NOW OPEN &lt;-</font></b></a>",
     ymd("2023-02-14"), "Deadline for submissions",
     ymd("2023-03-31"), "Notifications about submissions"
   )

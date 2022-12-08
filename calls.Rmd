@@ -10,6 +10,9 @@ output:
     toc_float: yes
 ---
 
+## Abstract submissions for talks and posters
+We are pleased to announce that [the call for abstracts <font color="red">now open</font>](https://www.conftool.pro/cen2023/). It will close on <b>Tuesday, 14.02.2023</b>, and notifications about submissions will be sent out on Friday, 31.03.2023.
+
 ## Short courses
 We are pleased to announce that the call for short courses is <font color="red">now open</font>. It will close on <b>Sunday, 15.01.2023</b>, and notifications about proposals will be sent out on Wednesday, 15.02.2023.
 
@@ -17,7 +20,7 @@ Please find here the [announcement](data/CEN 2023 Call_for_Short_Courses - final
 
 
 ## Invited and topic-contributed sessions
-The call for invited and topic-contributed sessions is now closed, and notifications about proposals will be sent out on <b>Thursday, 17.11.2022</b>.
+The call for invited and topic-contributed sessions is now closed, and notifications about proposals have been sent out.
 
 <!-- ### Invited sessions -->
 <!-- Please find here the [announcement](data/CEN 2023 Call_for_Invited_Sessions - final.pdf), as well as the [submission form](https://docs.google.com/forms/d/e/1FAIpQLSdAe6waB7jhBZ0RAF-oR2t5LPBAthzZZvKR7lPmeLxmSC11jQ/viewform?hl=en). -->
