@@ -35,18 +35,14 @@ of the [International Biometric Society (IBS)](https://www.biometricsociety.org)
 
 <br>
 
-# Contact information
 
-[Contact us](mailto:organizers@cen2023.ch)
-
-<br>
 
 # Thank you to our sponsors
 
-## Platinum Sponsors 
-<br>
+<!-- ### Platinum Sponsors  -->
+<!-- <br> -->
 
-## Gold Sponsors
+### Gold Sponsors
 <a href="https://www.karger.com/">![](img/sponsors/Karger_RGB.jpg){width="25%"}</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://www.datamap.de/">![](img/sponsors/Logo DATAMAP1.jpg){width="25%"}</a>
@@ -58,5 +54,10 @@ of the [International Biometric Society (IBS)](https://www.biometricsociety.org)
 <br>
 <br>
 
-## Silver Sponsors
+<!-- ### Silver Sponsors -->
 
+# Contact information
+
+[Contact us](mailto:organizers@cen2023.ch)
+
+<br>
