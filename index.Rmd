@@ -42,3 +42,21 @@ of the [International Biometric Society (IBS)](https://www.biometricsociety.org)
 <br>
 
 # Thank you to our sponsors
+
+## Platinum Sponsors 
+<br>
+
+## Gold Sponsors
+<a href="https://www.karger.com/">![](img/sponsors/Karger_RGB.jpg){width="25%"}</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.datamap.de/">![](img/sponsors/Logo DATAMAP1.jpg){width="25%"}</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.boehringer-ingelheim.com/">![](img/sponsors/BI_Logo_PMS288.png){width="25%"}</a>
+<br>
+<br>
+<a href="https://posit.co/">![](img/sponsors/posit-logo-fullcolor-TM.png){width="25%"}</a>
+<br>
+<br>
+
+## Silver Sponsors
+
