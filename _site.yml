@@ -20,7 +20,7 @@ navbar:
         - text: "Open calls"
           href: calls.html
         - text: "Accomodation"
-          href: accomodation.html
+          href: accommodation.html
         # - text: "Getting around"
         #   href: getting_around.html
     - text: "Program"
