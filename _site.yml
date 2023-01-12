@@ -19,7 +19,7 @@ navbar:
           href: dates.html
         - text: "Open calls"
           href: calls.html
-        - text: "Accomodation"
+        - text: "Accommodation"
           href: accommodation.html
         # - text: "Getting around"
         #   href: getting_around.html
