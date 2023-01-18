@@ -17,9 +17,7 @@ output:
 # Latest News
 <b>[Accommodation info is now available](accommodation.html)</b> <br>
 
-<b>The submission of abstracts for talks and posters is <font color="red">[now open!](https://www.conftool.pro/cen2023/) </font></b> <br>
-
-<b>The call for short course proposals is [<font color="red">still open until January 15<sup>th</sup></font>](calls.html) </b> <br><br>
+<b>The submission of abstracts for talks and posters is [<font color="red">open until Tuesday, 28.02.2023</font>](https://www.conftool.pro/cen2023/) </b>. <br>
 
 # CEN2023 Conference
 
