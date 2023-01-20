@@ -15,13 +15,15 @@ output:
 ![](img/basel.jpg)
 
 # Latest News
-<b>[Accommodation info is now available](accommodation.html)</b> <br>
+<b>[Confirmed sessions](sessions.html) and [Accommodation info is now available](accommodation.html)</b> <br>
 
 <b>The submission of abstracts for talks and posters is [<font color="red">open until Tuesday, 28.02.2023</font>](https://www.conftool.pro/cen2023/) </b>. <br>
 
 # CEN2023 Conference
 
 <font size="4"> The 5<sup>th</sup> Conference of the [Central European Network](https://www.biometricsociety.org/about/regions-networks/central-european-network) will take place from <br> <b> 3-7 September, 2023, at the [Biozentrum](https://www.biozentrum.unibas.ch) of the [University](https://www.unibas.ch/en) of [Basel](https://www.basel.com), Switzerland</b>. </font>
+
+The conference theme “From Data to Knowledge. Advancing Life Sciences.” highlights the special and important role played by biometricians (statisticians and data scientists) when extracting knowledge from data with the ultimate goal of advancing life sciences. The goal of CEN2023 is to present and discuss recent developments in biometry with its applications in life sciences, medicine, pharmacology, research and development in pharmaceutical industry, environmental statistics, and genomics.
 
 CEN2023 is a joint conference of
 

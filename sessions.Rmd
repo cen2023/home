@@ -1,0 +1,48 @@
+---
+title: "Confirmed Sessions"
+output: 
+  rmarkdown::html_document:
+    highlight: pygments
+    number_sections: no
+    self_contained: yes
+    toc: yes
+    toc_depth: 2
+    toc_float: yes
+---
+```{r, echo=F, results=F, message=F, warning=F}
+library(tibble)
+library(dplyr)
+library(readxl)
+library(knitr)
+library(kableExtra)
+
+sessions <- list()
+
+print_session <- function(session, data) {
+  cat("\n")
+  cat("## ")
+  cat(session)
+  cat("\n")
+  cat("\n")
+  
+  kable(data) %>%
+    column_spec(1, width = "70%") %>%
+    kable_styling(bootstrap_options = c("striped", "hover"))
+}
+session_names <- excel_sheets("data/sessions.xlsx")
+for (session in session_names) {
+  sessions[[session]] <- read_excel("data/sessions.xlsx", sheet=session) 
+}
+
+
+```
+
+```{r, echo=F, include=T, results = "asis"}
+
+for (session in excel_sheets("data/sessions.xlsx")) {
+  print(print_session(session, sessions[[session]]))
+  cat("\n")
+  cat("<br>\n")
+}
+
+```
