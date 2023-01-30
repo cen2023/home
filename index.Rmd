@@ -54,6 +54,8 @@ of the [International Biometric Society (IBS)](https://www.biometricsociety.org)
 <br>
 <br>
 <a href="https://posit.co/">![](img/sponsors/posit-logo-fullcolor-TM.png){width="25%"}</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.sfa-phrt.ch/">![](img/sponsors/Logo_PHRT_2_compressed.png){width="35%"}</a>
 <br>
 <br>
 
