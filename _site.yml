@@ -26,7 +26,7 @@ navbar:
     - text: "Program"
       menu:
         - text: "Keynote & Invited Speakers"
-          href: key_speaker.html
+          href: speakers.html
         - text: "Confirmed Sessions"
           href: sessions.html
         - text: "Conference Schedule (PDF)"
