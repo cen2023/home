@@ -15,7 +15,7 @@ output:
 ![](img/basel.jpg)
 
 # Latest News
-<b>[Confirmed sessions](sessions.html) and [Accommodation info is now available](accommodation.html)</b> <br>
+<b>[Confirmed sessions](sessions.html), [Keynote & Invited Speakers](speakers.html) and [Accommodation info ](accommodation.html) are now available</b> <br>
 
 <b>The submission of abstracts for talks and posters is [<font color="red">open until Tuesday, 28.02.2023</font>](https://www.conftool.pro/cen2023/) </b>. <br>
 

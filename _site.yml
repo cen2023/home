@@ -25,8 +25,8 @@ navbar:
         #   href: getting_around.html
     - text: "Program"
       menu:
-        # - text: "Keynote & Invited Speakers"
-        #   href: key_speaker.html
+        - text: "Keynote & Invited Speakers"
+          href: key_speaker.html
         - text: "Confirmed Sessions"
           href: sessions.html
         - text: "Conference Schedule (PDF)"

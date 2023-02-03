@@ -1,0 +1,102 @@
+---
+title: "Keynote & Invited Speakers"
+output: 
+  rmarkdown::html_document:
+    highlight: pygments
+    number_sections: no
+    self_contained: yes
+    toc: yes
+    toc_depth: 2
+    toc_float: yes
+---
+
+# Keynote Speakers
+
+
+
+## Peter Bühlmann
+<img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Peter_Buehlmann.jpg">
+Peter Bühlmann studied mathematics at ETH Zürich and received his doctoral degree in 1993 from the same institution. He was a Postdoctoral Fellow from 1994-1995 and a Neyman Assistant Professor from 1995 - 1997 at UC Berkeley, before he returned to ETH Zürich in 1997. From 2013 - 2017, he was Chair of the Department of Mathematics at ETH Zürich. He is a Fellow of the Institute of Mathematical Statistics, a Fellow of the American Statistical Association, and was Co-Editor of the Annals of Statistics from 2010 - 2012. Other honors which he recently received include Doctor Honoris Causa from the Université Catholique de Louvain in 2017, Neyman Lecturer 2018 elected by the Institute of Mathematical Statistics, Rothschild Lecturer 2018 at the Newton Institute (Cambridge), recipient of the Guy Medal in Silver 2018 from the Royal Statistical Society, and plenary speaker at the European Congress of Mathematics 2021.
+
+<br clear="both">
+<br>
+
+
+## Ruth Keogh
+<img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Ruth_Keogh.jpg">
+Ruth Keogh is a Professor of Biostatistics and Epidemiology in the Medical Statistics Department at London School of Hygiene & Tropical Medicine. Her research focuses on statistical methods for the analysis of observational data, and she works especially on causal inference methodology and methods for the analysis of time-to-event data. She is particularly interested in addressing practical challenges arising in real applications and is involved in a number of areas of application in health research, with a particular focus on cystic fibrosis. Other areas of interest include methods for handling measurement error and missing data, prediction modelling, and design and analysis of case-control studies. Ruth is funded by a UK Research and Innovation Future Leaders Fellowship.
+
+<br clear="both">
+<br>
+
+## Alicja Szabelska-Beręsewicz
+Information to follow.
+
+<br>
+<br>
+
+# Invited Speakers
+
+<img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Marc_Buyse.jpg">
+
+## Marc Buyse
+**International Drug Development Institute (IDDI), Louvain-la-Neuve, Belgium, and I-BioStat, Hasselt University, Hasselt, Belgium**  
+<br>
+**Keywords**: Generalized Pairwise Comparisons, Net Treatment Benefit, Win Ratio, Success Odds  
+<br clear="both">
+
+<img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Vanessa_Didelez.jpg">
+
+## Vanessa Didelez
+**Leibniz Institute for Prevention Research and Epidemiology - BIPS, Bremen, Germany**  
+<br>
+**Keywords**: causal inference, observational / real-world data, estimands, target trial emulation, g-methods
+<br clear="both">
+
+<img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Ruben_van_Eijk.jpg">
+
+## Ruben van Eijk
+**University Medical Center Utrecht, The Netherlands**  
+<br>
+**Keywords**: Amyotrophic Lateral Sclerosis, Hybrid Design, Registry, External Control, Real World Data
+<br clear="both">
+
+<img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Ludwig_Hothorn.jpg">
+
+## Ludwig Hothorn
+**Leibniz University Hannover, Germany**  
+<br>
+**Keywords:** Minimum effective dose; variance heterogeneity; robust alternatives
+<br clear="both">
+
+<img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/HM_James_Hung.jpg">
+
+## H.M. James Hung
+**US Food and Drug Administration, USA**  
+<br>
+**Keywords**: multiplicity, multiple endpoints, overall type I error  
+<br clear="both">
+
+<img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Kelly_van_Lancker.jpg">
+
+## Kelly Van Lancker
+**Ghent University, Belgium**  
+<br>
+**Keywords**: covariate adjustment, causal inference, standardization, treatment policy, robustness 
+<br clear="both">
+
+<img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Lukasz_Smaga.jpg">
+
+## Łukasz Smaga
+**Adam Mickiewicz University in Poznan** 
+<br>
+**Keywords**: Analysis of variance, functional data analysis, parametric and nonparametric methods  
+<br clear="both">
+
+<img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Jessica_Young.jpg">
+
+## Jessica Young
+**Harvard Medical School and Harvard Pilgrim Health Care Institute, USA** 
+<br>
+**Keywords**: causal inference, longitudinal data, survival analysis, competing events
+<br clear="both">
