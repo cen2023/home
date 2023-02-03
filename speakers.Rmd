@@ -88,7 +88,7 @@ Information to follow.
 <img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Lukasz_Smaga.jpg">
 
 ## Łukasz Smaga
-**Adam Mickiewicz University in Poznan** 
+**Adam Mickiewicz University in Poznan**  
 <br>
 **Keywords**: Analysis of variance, functional data analysis, parametric and nonparametric methods  
 <br clear="both">
@@ -96,7 +96,7 @@ Information to follow.
 <img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Jessica_Young.jpg">
 
 ## Jessica Young
-**Harvard Medical School and Harvard Pilgrim Health Care Institute, USA** 
+**Harvard Medical School and Harvard Pilgrim Health Care Institute, USA**  
 <br>
 **Keywords**: causal inference, longitudinal data, survival analysis, competing events
 <br clear="both">
