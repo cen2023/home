@@ -30,20 +30,38 @@ Ruth Keogh is a Professor of Biostatistics and Epidemiology in the Medical Stati
 <br>
 
 ## Alicja Szabelska-Beręsewicz
-Information to follow.
+<img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Alicja_Szabelska-Beresewicz.jpg">
+Alicja Szabelska-Beręsewicz is an Adjunct Professor in the Department of Mathematical and Statistical Methods at Poznan University of Life Sciences. She gained her experience during research internships in Zurich, Williamsburg and a one-year Sciex.ch grant stay at the Functional Genomic Center Zurich. Her research focuses on the development of various statistical methods that can be applied to biological and medical issues connected to next-generation sequencing (NGS) experiments. In particular, the fields of interest are regression models and testing procedures applied to differential expression analysis, biodiversity of microbiomes, or detection of alternative splicing phenomena. She is collaborating with other scientists in many interdisciplinary projects concerning real-life issues that include the NGS data analysis. 
 
+<br clear="both">
 <br>
 <br>
 
 # Invited Speakers
 
-<img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Marc_Buyse.jpg">
+<!-- <img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Elias_Bareinboim.jpg"> -->
 
-## Marc Buyse
-**International Drug Development Institute (IDDI), Louvain-la-Neuve, Belgium, and I-BioStat, Hasselt University, Hasselt, Belgium**  
+<!-- ## Elias Bareinboim -->
+<!-- **Columbia University, New York, USA** -->
+<!-- <br> -->
+<!-- **Keywords**: Causal inference, data fusion, transportability, generalizability -->
+<!-- <br clear="both"> -->
+
+<img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Robert_A_Beckman.jpg">
+
+## Robert A. Beckman
+**Lombardi Comprehensive Cancer Center, and Innovation Center for Biomedical Informatics, Georgetown University Medical Center, USA**  
 <br>
-**Keywords**: Generalized Pairwise Comparisons, Net Treatment Benefit, Win Ratio, Success Odds  
+**Keywords**: Development efficiency, predictive biomarkers, basket trials, informational design, non-concurrent controls  
 <br clear="both">
+
+<!-- <img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Marc_Buyse.jpg"> -->
+
+<!-- ## Marc Buyse -->
+<!-- **International Drug Development Institute (IDDI), Louvain-la-Neuve, Belgium, and I-BioStat, Hasselt University, Belgium**   -->
+<!-- <br> -->
+<!-- **Keywords**: Generalized Pairwise Comparisons, Net Treatment Benefit, Win Ratio, Success Odds   -->
+<!-- <br clear="both"> -->
 
 <img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Vanessa_Didelez.jpg">
 
@@ -53,13 +71,13 @@ Information to follow.
 **Keywords**: causal inference, observational / real-world data, estimands, target trial emulation, g-methods
 <br clear="both">
 
-<img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Ruben_van_Eijk.jpg">
+<!-- <img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Ruben_van_Eijk.jpg"> -->
 
-## Ruben van Eijk
-**University Medical Center Utrecht, The Netherlands**  
-<br>
-**Keywords**: Amyotrophic Lateral Sclerosis, Hybrid Design, Registry, External Control, Real World Data
-<br clear="both">
+<!-- ## Ruben van Eijk -->
+<!-- **University Medical Center Utrecht, The Netherlands**   -->
+<!-- <br> -->
+<!-- **Keywords**: Amyotrophic Lateral Sclerosis, Hybrid Design, Registry, External Control, Real World Data -->
+<!-- <br clear="both"> -->
 
 <img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Ludwig_Hothorn.jpg">
 
@@ -71,7 +89,7 @@ Information to follow.
 
 <img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/HM_James_Hung.jpg">
 
-## H.M. James Hung
+## H.&nbsp;M. James Hung
 **US Food and Drug Administration, USA**  
 <br>
 **Keywords**: multiplicity, multiple endpoints, overall type I error  
@@ -82,13 +100,29 @@ Information to follow.
 ## Kelly Van Lancker
 **Ghent University, Belgium**  
 <br>
-**Keywords**: covariate adjustment, causal inference, standardization, treatment policy, robustness 
+**Keywords**: covariate adjustment, causal inference, standardization, treatment policy, robustness  
+<br clear="both">
+
+<img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/John_O_Quigley.jpg">
+
+## John O’Quigley
+**University College London, UK**  
+<br>
+**Keywords**: Oncology, survival, non-proportional hazards, treatment effect process  
+<br clear="both">
+
+<img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/David_Robertson.jpg">
+
+## David Robertson
+**University of Cambridge, UK**  
+<br>
+**Keywords**: Multiple testing, online hypothesis testing, platform trial, type I error rate  
 <br clear="both">
 
 <img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Lukasz_Smaga.jpg">
 
 ## Łukasz Smaga
-**Adam Mickiewicz University in Poznan**  
+**Adam Mickiewicz University in Poznan, Poland**  
 <br>
 **Keywords**: Analysis of variance, functional data analysis, parametric and nonparametric methods  
 <br clear="both">

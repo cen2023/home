@@ -29,7 +29,7 @@ CEN2023 is a joint conference of
 
 -   the [Austro-Swiss Region (ROeS)](https://www.ibs-roes.org),
 -   the [German Region (DR)](http://www.biometrische-gesellschaft.de) and
--   the Polish Region 
+-   the [Polish Region](https://ptb.up.poznan.pl/en/)
 <!-- (https://sparrow.up.poznan.pl/polbiom/index.php?lang=en) -->
 
 of the [International Biometric Society (IBS)](https://www.biometricsociety.org) and supported by the [Basel Biometric society (BBS)](https://baselbiometrics.github.io/home/docs/index.html):
@@ -42,8 +42,11 @@ of the [International Biometric Society (IBS)](https://www.biometricsociety.org)
 
 # Thank you to our sponsors
 
-<!-- ### Platinum Sponsors  -->
-<!-- <br> -->
+### Platinum Sponsors
+<a href="https://www.novartis.com/">![](img/sponsors/novartis_logo_pos_rgb.png){width="25%"}</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br>
+<br>
 
 ### Gold Sponsors
 <a href="https://www.karger.com/">![](img/sponsors/Karger_RGB.jpg){width="25%"}</a>
