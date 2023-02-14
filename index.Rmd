@@ -15,7 +15,7 @@ output:
 ![](img/basel.jpg)
 
 # Latest News
-<b>[Confirmed sessions](sessions.html), [Keynote & Invited Speakers](speakers.html) and [Accommodation info ](accommodation.html) are now available</b> <br>
+<b>[Confirmed sessions](sessions.html), [keynote & invited speakers](speakers.html), [accommodation info ](accommodation.html) and [conference venue details](venue.html) are now available</b> <br>
 
 <b>The submission of abstracts for talks and posters is [<font color="red">open until Tuesday, 28.02.2023</font>](https://www.conftool.pro/cen2023/) </b>. <br>
 
@@ -23,7 +23,15 @@ output:
 
 <font size="4"> The 5<sup>th</sup> Conference of the [Central European Network](https://www.biometricsociety.org/about/regions-networks/central-european-network) will take place from <br> <b> 3-7 September, 2023, at the [Biozentrum](https://www.biozentrum.unibas.ch) of the [University](https://www.unibas.ch/en) of [Basel](https://www.basel.com), Switzerland</b>. </font>
 
-The conference theme “From Data to Knowledge. Advancing Life Sciences.” highlights the special and important role played by biometricians (statisticians and data scientists) when extracting knowledge from data with the ultimate goal of advancing life sciences. The goal of CEN2023 is to present and discuss recent developments in biometry with its applications in life sciences, medicine, pharmacology, research and development in pharmaceutical industry, environmental statistics, and genomics.
+The conference theme “From Data to Knowledge. Advancing Life Sciences.” highlights the special and important role played by biometricians (statisticians and data scientists) when extracting knowledge from data with the ultimate goal of advancing life sciences. The goal of CEN2023 is to present and discuss recent developments in biometry with its applications in life sciences, medicine, pharmacology, research and development in pharmaceutical industry, environmental statistics, and genomics (see the [full list of topics](topics.html)).
+
+Featured sessions include
+
+- Best practices for Data Monitoring Committees and how to get there
+- Industry meets academia: Session in memory of Dieter Hauschke
+- Statistics in Practice: Simulation studies as a tool to evaluate and compare the properties of statistical methods – an overview
+- Ten years of the STRengthening Analytical Thinking for Observational Studies (STRATOS) initiative – progress and looking to the future
+
 
 CEN2023 is a joint conference of
 

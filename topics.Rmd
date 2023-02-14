@@ -1,0 +1,36 @@
+---
+title: "Conference Topics"
+output: 
+  rmarkdown::html_document:
+    highlight: pygments
+    number_sections: no
+    self_contained: yes
+    toc: no
+    toc_depth: 2
+    toc_float: yes
+---
+```{r, echo=F, results=F, message=F, warning=F}
+library(tibble)
+library(dplyr)
+library(readxl)
+library(knitr)
+library(kableExtra)
+
+sessions <- list()
+
+
+
+topics <- read_excel("data/topics.xlsx") 
+
+
+```
+
+```{r, echo=F, include=T, results = "asis"}
+kable(topics, col.names = NULL) %>%
+  # column_spec(1, width = "70%") %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+cat("\n") 
+cat("<br>\n")
+
+
+```

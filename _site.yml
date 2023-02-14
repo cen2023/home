@@ -19,12 +19,16 @@ navbar:
           href: dates.html
         - text: "Open calls"
           href: calls.html
+        - text: "Conference venue"
+          href: venue.html
         - text: "Accommodation"
           href: accommodation.html
         # - text: "Getting around"
         #   href: getting_around.html
     - text: "Program"
       menu:
+        - text: "Conference Topics"
+          href: topics.html
         - text: "Keynote & Invited Speakers"
           href: speakers.html
         - text: "Confirmed Sessions"
