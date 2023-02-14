@@ -12,7 +12,11 @@ output:
 
 The CEN 2023 conference will take place at the Biozentrum of the University of Basel. The Biozentrum of the University of Basel is located only a few 100 metres from the city centre and is easily accessible by public transport, car, bicycle and on foot.
 
-For public transport information, see [sbb.ch](https://www.sbb.ch), the closest stops to Biozentrum are Basel, Kinderspital and Basel, Johanniterbrücke.
+For public transport information, see [sbb.ch](https://www.sbb.ch), the closest stops to Biozentrum are 
+
+- Basel, Kinderspital
+- Basel, Johanniterbrücke
+- Basel, Metzerstrasse
 
 ## Location
 
