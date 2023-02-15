@@ -103,13 +103,13 @@ Alicja Szabelska-Beręsewicz is an Adjunct Professor in the Department of Mathem
 **Keywords**: covariate adjustment, causal inference, standardization, treatment policy, robustness  
 <br clear="both">
 
-<img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/John_O_Quigley.jpg">
+<!-- <img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/John_O_Quigley.jpg"> -->
 
-## John O’Quigley
-**University College London, UK**  
-<br>
-**Keywords**: Oncology, survival, non-proportional hazards, treatment effect process  
-<br clear="both">
+<!-- ## John O’Quigley -->
+<!-- **University College London, UK**   -->
+<!-- <br> -->
+<!-- **Keywords**: Oncology, survival, non-proportional hazards, treatment effect process   -->
+<!-- <br clear="both"> -->
 
 <img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/David_Robertson.jpg">
 
