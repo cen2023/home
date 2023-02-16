@@ -45,6 +45,7 @@ Alicja Szabelska-Beręsewicz is an Adjunct Professor in the Department of Mathem
 **Columbia University, New York, USA**  
 <br>
 **Keywords**: Causal inference, data fusion, transportability, generalizability  
+
 <br clear="both">
 
 <img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Robert_A_Beckman.jpg">
