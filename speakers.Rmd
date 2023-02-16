@@ -39,13 +39,13 @@ Alicja Szabelska-Beręsewicz is an Adjunct Professor in the Department of Mathem
 
 # Invited Speakers
 
-<!-- <img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Elias_Bareinboim.jpg"> -->
+<img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Elias_Bareinboim.jpg">
 
-<!-- ## Elias Bareinboim -->
-<!-- **Columbia University, New York, USA** -->
-<!-- <br> -->
-<!-- **Keywords**: Causal inference, data fusion, transportability, generalizability -->
-<!-- <br clear="both"> -->
+## Elias Bareinboim
+**Columbia University, New York, USA**
+<br>
+**Keywords**: Causal inference, data fusion, transportability, generalizability
+<br clear="both">
 
 <img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Robert_A_Beckman.jpg">
 
