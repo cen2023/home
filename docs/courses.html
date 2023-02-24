@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>courses.knit</title>
+
+<script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">CEN 2023 Conference</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    About CEN 2023
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="index.html">Overview</a>
+    </li>
+    <li>
+      <a href="committee.html">Committees</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Conference information
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="dates.html">Key dates</a>
+    </li>
+    <li>
+      <a href="calls.html">Open calls</a>
+    </li>
+    <li>
+      <a href="venue.html">Conference venue</a>
+    </li>
+    <li>
+      <a href="accommodation.html">Accommodation</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Program
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="topics.html">Conference Topics</a>
+    </li>
+    <li>
+      <a href="speakers.html">Keynote &amp; Invited Speakers</a>
+    </li>
+    <li>
+      <a href="sessions.html">Confirmed Sessions</a>
+    </li>
+    <li>
+      <a href="courses.html">Short courses</a>
+    </li>
+    <li>
+      <a href="data/CEN 2023 Basel V3 final.pdf">Conference Schedule (PDF)</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<div id="pre-conference-short-courses" class="section level1">
+<h1>Pre-conference Short Courses</h1>
+<div id="overview" class="section level2">
+<h2>Overview</h2>
+<div id="morning" class="section level4">
+<h4>Morning</h4>
+<table class="table table-striped table-hover" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Course
+</th>
+<th style="text-align:left;">
+Instructors
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;width: 70%; ">
+Advanced group-sequential and adaptive confirmatory clinical trial
+designs, with R practicals using rpact (Part 1)
+</td>
+<td style="text-align:left;">
+Marcel Wolbers, Kaspar Rufibach and Gernot Wassmer
+</td>
+</tr>
+<tr>
+<td style="text-align:left;width: 70%; ">
+Implementing the estimand framework in global drug development:
+Application of causal inference approaches
+</td>
+<td style="text-align:left;">
+Mouna Akacha
+</td>
+</tr>
+<tr>
+<td style="text-align:left;width: 70%; ">
+Bayesian methods for missing covariates in longitudinal studies
+</td>
+<td style="text-align:left;">
+Nicole Erler and Emmanuel Lesaffre
+</td>
+</tr>
+<tr>
+<td style="text-align:left;width: 70%; ">
+Go fastR: High Performance Computing with R
+</td>
+<td style="text-align:left;">
+Michael Mayer and Lukas Widmer
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="afternoon" class="section level4">
+<h4>Afternoon</h4>
+<table class="table table-striped table-hover" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Course
+</th>
+<th style="text-align:left;">
+Instructors
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;width: 70%; ">
+Advanced group-sequential and adaptive confirmatory clinical trial
+designs, with R practicals using rpact (Part 2)
+</td>
+<td style="text-align:left;">
+Marcel Wolbers, Kaspar Rufibach and Gernot Wassmer
+</td>
+</tr>
+<tr>
+<td style="text-align:left;width: 70%; ">
+Target Trial Emulation for Causal Inference from Real-World Data
+</td>
+<td style="text-align:left;">
+Didelez
+</td>
+</tr>
+<tr>
+<td style="text-align:left;width: 70%; ">
+Improving Precision and Power in Randomized Trials by Leveraging
+Baseline Variables
+</td>
+<td style="text-align:left;">
+Van Lancker
+</td>
+</tr>
+<tr>
+<td style="text-align:left;width: 70%; ">
+Model and Algorithm Evaluation in Supervised Machine Learning
+</td>
+<td style="text-align:left;">
+Max Westphal
+</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</div>
+</div>
+<div
+id="advanced-group-sequential-and-adaptive-confirmatory-clinical-trial-designs-with-r-practicals-using-rpact"
+class="section level2">
+<h2>Advanced group-sequential and adaptive confirmatory clinical trial
+designs, with R practicals using rpact</h2>
+<p><strong>Keywords:</strong> interim analyses; sample size
+re-calculation; multi-arm multi-stage designs<br />
+<strong>Instructors:</strong> Marcel Wolbers, Kaspar Rufibach and Gernot
+Wassmer</p>
+<p>This course is intended for biostatisticians from pharma and academia
+who are interested in learning more about advanced topics in
+group-sequential and adaptive clinical trial designs. Topics covered are
+the efficient use of interim analyses in group-sequential trials, an
+introduction to adaptive trials and sample size recalculation, the use
+of closed testing procedures for adaptive trials with multiple
+objectives, and multi-arm multi-stage designs. Examples from real
+clinical trials will be used throughout the presentations. We also aim
+to discuss operational aspects of implementing such designs in
+practice.</p>
+<p>The course will be a mix of presentations and practicals using the R
+package rpact, a free and fully validated package for the design and
+analysis of group-sequential and adaptive trials. We will assume basic
+familiarity with group-sequential designs and R. Participants are asked
+to bring a laptop with R and rpact installed. It is the ambition of the
+instructors to make this course very interactive. <br> <br></p>
+</div>
+<div
+id="implementing-the-estimand-framework-in-global-drug-development-application-of-causal-inference-approaches"
+class="section level2">
+<h2>Implementing the estimand framework in global drug development:
+Application of causal inference approaches</h2>
+<p><strong>Keywords</strong>: causal inference; conditional estimand;
+marginal estimand; standardization; ICH E9(R1); hypothetical estimand;
+principal stratum estimand<br />
+<strong>Instructors</strong>: Mouna Akacha, Björn Bornkamp, Alex Ocampo
+and Jiawei Wei</p>
+<p>This half-day short course introduces how causal inference approaches
+are relevant and used in the implementation of estimands framework in
+drug development. It includes 4 lectures:</p>
+<p>Lecture 1 - Introduction to Estimands and Causal Inference:</p>
+<ol style="list-style-type: decimal">
+<li>Overview of the estimand framework and key points in ICH E9(R1)</li>
+<li>Introduction to causal inference, including potential outcomes,
+causal effects and common assumptions;</li>
+</ol>
+<p>Lecture 2 - Estimation Methods of Causal Effects Targeting at
+Hypothetical Estimands:</p>
+<ol style="list-style-type: decimal">
+<li>Introduction to common estimation methods, e.g., g-computation, IPW
+(Inverse probability weighting)</li>
+<li>RCT examples illustrated using R code;</li>
+</ol>
+<p>Lecture 3 - Principal Stratum:</p>
+<ol style="list-style-type: decimal">
+<li>Introduction to principal stratum estimand</li>
+<li>Estimation strategies</li>
+<li>Case studies in RCTs;</li>
+</ol>
+<p>Lecture 4 - Conditional and Marginal Treatment Effects:</p>
+<ol style="list-style-type: decimal">
+<li>Introduction to conditional and marginal treatment effects</li>
+<li>Appropriate estimators for conditional and marginal estimands</li>
+<li>RCT examples illustrated using R code.</li>
+</ol>
+<p><br> <br></p>
+</div>
+<div
+id="bayesian-methods-for-missing-covariates-in-longitudinal-studies"
+class="section level2">
+<h2>Bayesian methods for missing covariates in longitudinal studies</h2>
+<p><strong>Keywords:</strong> Bayesian Methods; Missing Data;
+Longitudinal Data; Imputation<br />
+<strong>Instructors:</strong> Nicole Erler and Emmanuel Lesaffre</p>
+<p>Missing values commonly complicate the analysis of observational
+data. Multiple imputation (MI) is considered the “gold standard” for
+handling incomplete covariates. MI, developed at the beginning of the
+Computer Age, is based on Bayesian ideas. In complex settings,
+e.g. involving non-linear associations or multi-level data, the
+assumptions of the commonly used MI algorithms are, however, often
+violated, leading to possibly biased results. Thanks to the current
+computational power, a fully Bayesian approach, allowing us to
+simultaneously estimate parameters of interest and impute missing
+values, is now feasible. This approach is theoretically valid and
+superior to MI in complex settings. Highly complex non-standard missing
+data models can relatively easily be implemented with the help of freely
+available software such as the R package JointAI. In this course, we
+briefly review the essentials of multi-level data, Bayesian concepts and
+(multiple) imputation. The main focus is on the Bayesian approach to
+missing values in covariates in multi-level and longitudinal studies,
+which is motivated and illustrated using examples from clinical and
+epidemiological studies. Practical sessions will be organized to show
+the capabilities of the R package JointAI, starting with simpler
+standard settings and extending to highly complex joint models for
+longitudinal and survival data and imputation in non-standard settings.
+<br> <br></p>
+</div>
+<div id="go-fastr-high-performance-computing-with-r"
+class="section level2">
+<h2>Go fastR: High Performance Computing with R</h2>
+<p><strong>Keywords</strong>: statistical computing, R; HPC; clustermq;
+batchtools; Stan; Bayesian; clinical trial simulations<br />
+<strong>Instructors:</strong> Michael Mayer and Lukas Widmer</p>
+<p>This course will help participants to optimize their R code as well
+as parallelizing and debugging it on their own machines as well as
+high-performance computing environments. Example use cases include
+commonly performed activities for trial design, bootstrapping,
+cross-validation and related workloads. The following topics will be
+covered:</p>
+<p>Part I: Identifying bottlenecks in your R code, debugging, and
+optimizing</p>
+<ul>
+<li>Debugging R code &amp; checking correctness</li>
+<li>Profiling R code to identify bottlenecks</li>
+<li>Optimizing bottlenecks locally: packages, vectorizing, logical
+indexing</li>
+</ul>
+<p>Part II: R parallelization on high performance computing environments
+(HPCE)</p>
+<ul>
+<li>Amdahl’s law and limits of achievable speed up</li>
+<li>Parallelizing work onto compute clusters via clusterMQ and
+batchtools</li>
+<li>Consistently loading packages, .libPaths() and options() on R
+workers</li>
+<li>Uncorrelated random number generation for parallel R code</li>
+<li>Debugging R code in batchtools and clusterMQ jobs</li>
+</ul>
+<p>Part III: Case studies and code examples</p>
+<ul>
+<li>Bootstrapping</li>
+<li>Cross-validation</li>
+<li>Trial simulations under replication</li>
+<li>Within-chain parallelization with several chains in Stan</li>
+<li>Bring your own problem: start to speed-up your own code with the
+help of the instructors.</li>
+</ul>
+<p><br></p>
+</div>
+<div
+id="target-trial-emulation-for-causal-inference-from-real-world-data"
+class="section level2">
+<h2>Target Trial Emulation for Causal Inference from Real-World
+Data</h2>
+<p><strong>Keywords</strong>: observational data, avoding self-inflicted
+biases, comparing treatment strategies<br />
+<strong>Instructors:</strong> Vanessa Didelez and Maria Geers</p>
+<p>Target trial emulation (TTE) is a general principle to organize and
+structure the analysis of observational data, such as electronic health
+records, claims or registry data, so as to minimize common but avoidable
+sources of bias, e.g. immortal-time bias. Moreover, formulating a target
+trial is helpful to elicit practically meaningful causal research
+questions with a clear interpretation. The workshop will explain the
+principle of TTE using examples from cancer screening, drug safety as
+well as nutritional epidemiology. For instance, we will illustrate how
+to emulate a target trial on screening colonoscopy, how this avoids
+design-related and other biases, while showing how results are badly
+affected if a naive study design is chosen that suffers from these
+biases. A brief overview of some relevant statistical methods will be
+given, such as the clone-censor-weight approach or the parametric
+g-formula. However, as will become clear, TTE is a fundamental principle
+that can be combined with various causal inference methods.</p>
+<p>Organization of the workshop:<br />
+There will be theoretical parts as well as worked examples, with
+hands-on tasks for the participants.</p>
+<p>Learning outcomes:<br />
+Participants will (i) be able to recognise avoidable sources of bias in
+naïve studies using observational data; (ii) become aware of basic
+techniques to avoid these issues; (iii) acquire a basic understanding of
+TTE that will facilitate studying the more advanced literature.</p>
+<p><br> <br></p>
+</div>
+<div
+id="improving-precision-and-power-in-randomized-trials-by-leveraging-baseline-variables"
+class="section level2">
+<h2>Improving Precision and Power in Randomized Trials by Leveraging
+Baseline Variables</h2>
+<p><strong>Keywords</strong>: covariate adjustment; causal inference;
+standardization; treatment policy; robustness; group sequential
+designs<br />
+<strong>Instructors:</strong> Kelly Van Lancker, Michael Rosenblum and
+Josh Betz</p>
+<p>In May 2021, the U.S. Food and Drug Administration (FDA) released a
+revised draft guidance for industry on “Adjustment for Covariates in
+Randomized Clinical Trials for Drugs and Biological Products”. Covariate
+adjustment is a statistical analysis method for improving precision in
+clinical trials by adjusting for pre-specified, prognostic baseline
+variables (e.g., age, BMI, comorbidities). The resulting sample size
+reductions can lead to substantial cost savings, and also more ethical
+trials since they avoid exposing more participants than necessary to
+experimental treatments. Though covariate adjustment is recommended by
+the FDA and the European Medicines Agency, many trials do not fully
+exploit the available information in baseline variables.</p>
+<p>In Part 1, we explain what covariate adjustment is, how it works,
+when it may be useful, and how to implement it (in a preplanned way that
+is robust to model misspecification) for a variety of scenarios.</p>
+<p>In Part 2, we present a new method that enables us to easily combine
+covariate adjustment with group sequential designs. This approach can
+lead to faster trials, without sacrificing validity or power, even when
+the experimental treatment is ineffective.</p>
+<p>In Part 3, we show the impact of covariate adjustment using completed
+trial datasets in multiple disease areas. We provide step-by-step, clear
+documentation of how to apply the software in each setting. Participants
+will have the time to apply software tools on the different datasets.
+<br> <br></p>
+</div>
+<div id="model-and-algorithm-evaluation-in-supervised-machine-learning"
+class="section level2">
+<h2>Model and Algorithm Evaluation in Supervised Machine Learning</h2>
+<p><strong>Keywords</strong>: prediction; performance; validation;
+comparison; benchmark<br />
+<strong>Instructors</strong>: Max Westphal</p>
+<p>The statistical evaluation of developed models and algorithms is an
+essential part of applied machine learning and predictive modelling.
+This half-day course is suitable as a concise introduction or refresher
+for this important topic. It is divided into three parts with sufficient
+time for participant questions and breaks in between.</p>
+<p>Initially, we will repeat essential machine learning basics and cover
+core concepts of model evaluation. We will mainly consider
+classification tasks and the most relevant assessment criteria
+(discrimination, calibration) but also summarize adaptations for
+regression and survival problems. In the main part, we discuss common
+pitfalls (leakage, multiplicity, ….) in model evaluation and appropriate
+best practices to avoid and/or rectify them. Finally, we touch upon some
+advanced topics and cover important practical aspects (software,
+reporting, reproducibility) that are required for a successful
+evaluation study.</p>
+<p>The course contents are illustrated by means of real-world data
+examples, including R code to showcase how the numerical results were
+obtained. There are no explicit coding sessions in this short course, so
+a laptop is not necessarily required. The course materials will be made
+available so that participants have the opportunity to individually
+reproduce the numerical examples after the course.</p>
+<p>Prerequisites:</p>
+<ul>
+<li>Initial practical experience in applied machine learning</li>
+<li>Basic knowledge of descriptive and inferential statistics</li>
+</ul>
+<p><br> <br></p>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

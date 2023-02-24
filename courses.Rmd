@@ -1,0 +1,239 @@
+---
+output: 
+  rmarkdown::html_document:
+    highlight: pygments
+    number_sections: no
+    self_contained: yes
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+---
+
+
+```{r, echo=F, results=F, message=F, warning=F}
+library(tibble)
+library(dplyr)
+library(readxl)
+library(knitr)
+library(kableExtra)
+
+morning_courses <- tribble(
+  ~Course, ~Instructors,
+  "Advanced group-sequential and adaptive confirmatory clinical trial designs, with R practicals using rpact (Part 1)", "Marcel Wolbers, Kaspar Rufibach and Gernot Wassmer",  
+  "Implementing the estimand framework in global drug development: Application of causal inference approaches", "Mouna Akacha",
+  "Bayesian methods for missing covariates in longitudinal studies", "Nicole Erler and Emmanuel Lesaffre",
+  "Go fastR: High Performance Computing with R", "Michael Mayer and Lukas Widmer"
+)
+
+afternoon_courses <- tribble(
+  ~Course, ~Instructors,
+  "Advanced group-sequential and adaptive confirmatory clinical trial designs, with R practicals using rpact (Part 2)", "Marcel Wolbers, Kaspar Rufibach and Gernot Wassmer",   
+  "Target Trial Emulation for Causal Inference from Real-World Data", "Didelez",
+  "Improving Precision and Power in Randomized Trials by Leveraging Baseline Variables", "Van Lancker",
+  "Model and Algorithm Evaluation in Supervised Machine Learning", "Max Westphal"
+  
+)
+
+
+```
+# Pre-conference Short Courses
+
+## Overview
+#### Morning
+```{r, echo=F, include=T, results = "asis"}
+kable(morning_courses) %>%
+  column_spec(1, width = "70%") %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+cat("\n") 
+```
+#### Afternoon
+```{r, echo=F, include=T, results = "asis"}
+kable(afternoon_courses) %>%
+  column_spec(1, width = "70%") %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+cat("\n") 
+```
+<br>
+
+## Advanced group-sequential and adaptive confirmatory clinical trial designs, with R practicals using rpact
+**Keywords:** interim analyses; sample size re-calculation; multi-arm multi-stage designs  
+**Instructors:** Marcel Wolbers, Kaspar Rufibach and Gernot Wassmer  
+
+This course is intended for biostatisticians from pharma and academia who are interested in learning more about
+advanced topics in group-sequential and adaptive clinical trial designs. Topics covered are the efficient use of interim
+analyses in group-sequential trials, an introduction to adaptive trials and sample size recalculation, the use of closed
+testing procedures for adaptive trials with multiple objectives, and multi-arm multi-stage designs. Examples from real
+clinical trials will be used throughout the presentations. We also aim to discuss operational aspects of implementing
+such designs in practice.
+
+The course will be a mix of presentations and practicals using the R package rpact, a free and fully validated package for
+the design and analysis of group-sequential and adaptive trials. We will assume basic familiarity with group-sequential
+designs and R. Participants are asked to bring a laptop with R and rpact installed. It is the ambition of the instructors to
+make this course very interactive.
+<br>
+<br>
+
+## Implementing the estimand framework in global drug development: Application of causal inference approaches
+**Keywords**: causal inference; conditional estimand; marginal estimand; standardization; ICH E9(R1); hypothetical estimand; principal stratum estimand  
+**Instructors**: Mouna Akacha, Björn Bornkamp, Alex Ocampo and Jiawei Wei  
+
+This half-day short course introduces how causal inference approaches are relevant and used in the implementation of
+estimands framework in drug development. It includes 4 lectures:
+
+Lecture 1 - Introduction to Estimands and Causal Inference:
+
+1) Overview of the estimand framework and key points in ICH E9(R1)
+2) Introduction to causal inference, including potential outcomes, causal effects and common assumptions;
+
+Lecture 2 - Estimation Methods of Causal Effects Targeting at Hypothetical Estimands:
+
+1) Introduction to common estimation methods, e.g., g-computation, IPW (Inverse probability weighting)
+2) RCT examples illustrated using R code;
+
+Lecture 3 - Principal Stratum:
+
+1) Introduction to principal stratum estimand
+2) Estimation strategies
+3) Case studies in RCTs;
+
+Lecture 4 - Conditional and Marginal Treatment Effects:
+
+1) Introduction to conditional and marginal treatment effects
+2) Appropriate estimators for conditional and marginal estimands
+3) RCT examples illustrated using R code.
+
+<br>
+<br>
+
+
+## Bayesian methods for missing covariates in longitudinal studies
+**Keywords:** Bayesian Methods; Missing Data; Longitudinal Data; Imputation  
+**Instructors:** Nicole Erler and Emmanuel Lesaffre
+
+Missing values commonly complicate the analysis of observational data. Multiple imputation (MI) is considered the “gold
+standard” for handling incomplete covariates. MI, developed at the beginning of the Computer Age, is based on Bayesian
+ideas. In complex settings, e.g. involving non-linear associations or multi-level data, the assumptions of the commonly
+used MI algorithms are, however, often violated, leading to possibly biased results.
+Thanks to the current computational power, a fully Bayesian approach, allowing us to simultaneously estimate
+parameters of interest and impute missing values, is now feasible. This approach is theoretically valid and superior to MI
+in complex settings. Highly complex non-standard missing data models can relatively easily be implemented with the
+help of freely available software such as the R package JointAI.
+In this course, we briefly review the essentials of multi-level data, Bayesian concepts and (multiple) imputation. The main
+focus is on the Bayesian approach to missing values in covariates in multi-level and longitudinal studies, which is
+motivated and illustrated using examples from clinical and epidemiological studies. Practical sessions will be organized
+to show the capabilities of the R package JointAI, starting with simpler standard settings and extending to highly
+complex joint models for longitudinal and survival data and imputation in non-standard settings.
+<br>
+<br>
+
+## Go fastR: High Performance Computing with R	
+**Keywords**: statistical computing, R; HPC; clustermq; batchtools; Stan; Bayesian; clinical trial simulations    
+**Instructors:** Michael Mayer and Lukas Widmer  
+
+This course will help participants to optimize their R code as well as parallelizing and debugging it on their own machines
+as well as high-performance computing environments. Example use cases include commonly performed activities for
+trial design, bootstrapping, cross-validation and related workloads.
+The following topics will be covered:
+
+Part I: Identifying bottlenecks in your R code, debugging, and optimizing
+
+* Debugging R code & checking correctness
+* Profiling R code to identify bottlenecks
+* Optimizing bottlenecks locally: packages, vectorizing, logical indexing
+
+Part II: R parallelization on high performance computing environments (HPCE)
+
+* Amdahl’s law and limits of achievable speed up
+* Parallelizing work onto compute clusters via clusterMQ and batchtools
+* Consistently loading packages, .libPaths() and options() on R workers
+* Uncorrelated random number generation for parallel R code
+* Debugging R code in batchtools and clusterMQ jobs
+
+Part III: Case studies and code examples
+
+* Bootstrapping
+* Cross-validation
+* Trial simulations under replication
+* Within-chain parallelization with several chains in Stan
+* Bring your own problem: start to speed-up your own code with the help of the instructors.
+
+<br>
+
+## Target Trial Emulation for Causal Inference from Real-World Data
+**Keywords**: observational data, avoding self-inflicted biases, comparing treatment strategies    
+**Instructors:** Vanessa Didelez and Maria Geers  
+
+Target trial emulation (TTE) is a general principle to organize and structure the analysis of observational data, such as
+electronic health records, claims or registry data, so as to minimize common but avoidable sources of bias, e.g.
+immortal-time bias. Moreover, formulating a target trial is helpful to elicit practically meaningful causal research
+questions with a clear interpretation. The workshop will explain the principle of TTE using examples from cancer
+screening, drug safety as well as nutritional epidemiology. For instance, we will illustrate how to emulate a target trial on
+screening colonoscopy, how this avoids design-related and other biases, while showing how results are badly affected if
+a naive study design is chosen that suffers from these biases. A brief overview of some relevant statistical methods will
+be given, such as the clone-censor-weight approach or the parametric g-formula. However, as will become clear, TTE is a
+fundamental principle that can be combined with various causal inference methods.
+
+Organization of the workshop:  
+There will be theoretical parts as well as worked examples, with hands-on tasks for the participants.  
+
+Learning outcomes:  
+Participants will (i) be able to recognise avoidable sources of bias in naïve studies using
+observational data; (ii) become aware of basic techniques to avoid these issues; (iii) acquire a basic understanding of
+TTE that will facilitate studying the more advanced literature.
+
+<br>
+<br>
+
+## Improving Precision and Power in Randomized Trials by Leveraging Baseline Variables
+**Keywords**: covariate adjustment; causal inference; standardization; treatment policy; robustness; group sequential designs  
+**Instructors:** Kelly Van Lancker, Michael Rosenblum and Josh Betz  
+
+In May 2021, the U.S. Food and Drug Administration (FDA) released a revised draft guidance for industry on “Adjustment
+for Covariates in Randomized Clinical Trials for Drugs and Biological Products”. Covariate adjustment is a statistical
+analysis method for improving precision in clinical trials by adjusting for pre-specified, prognostic baseline variables (e.g.,
+age, BMI, comorbidities). The resulting sample size reductions can lead to substantial cost savings, and also more ethical
+trials since they avoid exposing more participants than necessary to experimental treatments. Though covariate
+adjustment is recommended by the FDA and the European Medicines Agency, many trials do not fully exploit the available
+information in baseline variables.
+
+In Part 1, we explain what covariate adjustment is, how it works, when it may be useful, and how to implement it (in a
+preplanned way that is robust to model misspecification) for a variety of scenarios.
+
+In Part 2, we present a new method that enables us to easily combine covariate adjustment with group sequential
+designs. This approach can lead to faster trials, without sacrificing validity or power, even when the experimental
+treatment is ineffective.
+
+In Part 3, we show the impact of covariate adjustment using completed trial datasets in multiple disease areas. We
+provide step-by-step, clear documentation of how to apply the software in each setting. Participants will have the time to
+apply software tools on the different datasets.
+<br>
+<br>
+
+## Model and Algorithm Evaluation in Supervised Machine Learning
+**Keywords**: prediction; performance; validation; comparison; benchmark  
+**Instructors**: Max Westphal  
+
+The statistical evaluation of developed models and algorithms is an essential part of applied machine learning and
+predictive modelling. This half-day course is suitable as a concise introduction or refresher for this important topic. It is
+divided into three parts with sufficient time for participant questions and breaks in between.
+
+Initially, we will repeat essential machine learning basics and cover core concepts of model evaluation. We will mainly
+consider classification tasks and the most relevant assessment criteria (discrimination, calibration) but also summarize
+adaptations for regression and survival problems.
+In the main part, we discuss common pitfalls (leakage, multiplicity, ….) in model evaluation and appropriate best practices
+to avoid and/or rectify them.
+Finally, we touch upon some advanced topics and cover important practical aspects (software, reporting, reproducibility)
+that are required for a successful evaluation study.
+
+The course contents are illustrated by means of real-world data examples, including R code to showcase how the
+numerical results were obtained. There are no explicit coding sessions in this short course, so a laptop is not necessarily
+required. The course materials will be made available so that participants have the opportunity to individually reproduce
+the numerical examples after the course.
+
+Prerequisites:
+
+- Initial practical experience in applied machine learning
+- Basic knowledge of descriptive and inferential statistics
+
+<br>
+<br>

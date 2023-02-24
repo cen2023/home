@@ -56,13 +56,13 @@ Alicja Szabelska-Beręsewicz is an Adjunct Professor in the Department of Mathem
 **Keywords**: Development efficiency, predictive biomarkers, basket trials, informational design, non-concurrent controls  
 <br clear="both">
 
-<!-- <img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Marc_Buyse.jpg"> -->
+<img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Marc_Buyse.jpg">
 
-<!-- ## Marc Buyse -->
-<!-- **International Drug Development Institute (IDDI), Louvain-la-Neuve, Belgium, and I-BioStat, Hasselt University, Belgium**   -->
-<!-- <br> -->
-<!-- **Keywords**: Generalized Pairwise Comparisons, Net Treatment Benefit, Win Ratio, Success Odds   -->
-<!-- <br clear="both"> -->
+## Marc Buyse
+**International Drug Development Institute (IDDI), Louvain-la-Neuve, Belgium, and I-BioStat, Hasselt University, Belgium**  
+<br>
+**Keywords**: Generalized Pairwise Comparisons, Net Treatment Benefit, Win Ratio, Success Odds
+<br clear="both">
 
 <img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Vanessa_Didelez.jpg">
 
