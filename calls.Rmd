@@ -11,7 +11,8 @@ output:
 ---
 
 ## Abstract submissions for talks and posters
-We are pleased to announce that [the call for abstracts <font color="red">now open</font>](https://www.conftool.pro/cen2023/). It will close on <b>Tuesday, 28.02.2023</b>, and notifications about submissions will be sent out on Friday, 31.03.2023.
+We are pleased to announce that [the call for abstracts <font color="red">now open and extended to <b>Sunday, 05.03.2023</font>](https://www.conftool.pro/cen2023/).  
+Notifications about submissions will be sent out on Friday, 31.03.2023.
 
 ## Short courses
 The call for short courses is now closed. Notifications about proposals will be sent out by Wednesday, 15.02.2023.

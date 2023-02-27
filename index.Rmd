@@ -17,7 +17,7 @@ output:
 # Latest News
 <b>[Confirmed sessions](sessions.html), [keynote & invited speakers](speakers.html), [accommodation info ](accommodation.html) and [conference venue details](venue.html) are now available</b> <br>
 
-<b>The submission of abstracts for talks and posters is [<font color="red">open until Tuesday, 28.02.2023</font>](https://www.conftool.pro/cen2023/) </b>. <br>
+<b>The submission of abstracts for talks and posters [<font color="red">has been extended to Sunday, 05.03.2023</font>](https://www.conftool.pro/cen2023/) </b>. <br>
 
 # CEN2023 Conference
 
