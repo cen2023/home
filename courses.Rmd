@@ -1,4 +1,5 @@
 ---
+title: "Pre-conference Short Courses"
 output: 
   rmarkdown::html_document:
     highlight: pygments
@@ -19,26 +20,30 @@ library(kableExtra)
 
 morning_courses <- tribble(
   ~Course, ~Instructors,
-  "Advanced group-sequential and adaptive confirmatory clinical trial designs, with R practicals using rpact (Part 1)", "Marcel Wolbers, Kaspar Rufibach and Gernot Wassmer",  
-  "Implementing the estimand framework in global drug development: Application of causal inference approaches", "Mouna Akacha",
+  "Advanced group-sequential and adaptive confirmatory clinical trial designs, with R practicals using rpact (Part 1)", "Marcel Wolbers, Kaspar Rufibach, Gernot Wassmer and Marc Vandemeulebroecke",  
+  "Implementing the estimand framework in global drug development: Application of causal inference approaches", "Mouna Akacha, Björn Bornkamp, Alex Ocampo and Jiawei Wei",
   "Bayesian methods for missing covariates in longitudinal studies", "Nicole Erler and Emmanuel Lesaffre",
   "Go fastR: High Performance Computing with R", "Michael Mayer and Lukas Widmer"
 )
 
 afternoon_courses <- tribble(
   ~Course, ~Instructors,
-  "Advanced group-sequential and adaptive confirmatory clinical trial designs, with R practicals using rpact (Part 2)", "Marcel Wolbers, Kaspar Rufibach and Gernot Wassmer",   
-  "Target Trial Emulation for Causal Inference from Real-World Data", "Didelez",
-  "Improving Precision and Power in Randomized Trials by Leveraging Baseline Variables", "Van Lancker",
+  "Advanced group-sequential and adaptive confirmatory clinical trial designs, with R practicals using rpact (Part 2)", "Marcel Wolbers, Kaspar Rufibach, Gernot Wassmer and Marc Vandemeulebroecke",   
+  "Target Trial Emulation for Causal Inference from Real-World Data", "Vanessa Didelez and Maria Geers",
+  "Improving Precision and Power in Randomized Trials by Leveraging Baseline Variables", "Kelly Van Lancker, Michael Rosenblum and Josh Betz",
   "Model and Algorithm Evaluation in Supervised Machine Learning", "Max Westphal"
   
 )
 
 
 ```
-# Pre-conference Short Courses
-
 ## Overview
+
+The following short courses will be held on Sunday, 3<sup>rd</sup> of September 2023 (the day before the start of the conference).  
+
+Note that courses may still be cancelled due to low registrations or moved to a different time slot up to on June 1<sup>st</sup>.
+
+
 #### Morning
 ```{r, echo=F, include=T, results = "asis"}
 kable(morning_courses) %>%
@@ -53,11 +58,17 @@ kable(afternoon_courses) %>%
   kable_styling(bootstrap_options = c("striped", "hover"))
 cat("\n") 
 ```
+
 <br>
 
 ## Advanced group-sequential and adaptive confirmatory clinical trial designs, with R practicals using rpact
 **Keywords:** interim analyses; sample size re-calculation; multi-arm multi-stage designs  
-**Instructors:** Marcel Wolbers, Kaspar Rufibach and Gernot Wassmer  
+**Instructors:**
+
+* Marcel Wolbers, Roche Pharma, Basel, Switzerland
+* Kaspar Rufibach, Roche Pharma, Basel, Switzerland
+* Gernot Wassmer, rpact and University of Cologne, Germany
+* Marc Vandemeulebroecke, Novartis, Basel, Switzerland
 
 This course is intended for biostatisticians from pharma and academia who are interested in learning more about
 advanced topics in group-sequential and adaptive clinical trial designs. Topics covered are the efficient use of interim
@@ -75,7 +86,12 @@ make this course very interactive.
 
 ## Implementing the estimand framework in global drug development: Application of causal inference approaches
 **Keywords**: causal inference; conditional estimand; marginal estimand; standardization; ICH E9(R1); hypothetical estimand; principal stratum estimand  
-**Instructors**: Mouna Akacha, Björn Bornkamp, Alex Ocampo and Jiawei Wei  
+**Instructors**:
+
+* Mouna Akacha, Novartis Pharma AG, Basel, Switzerland
+* Björn Bornkamp, Novartis Pharma AG, Basel, Switzerland
+* Alex Ocampo, Novartis Pharma AG, Basel, Switzerland
+* Jiawei Wei, Novartis Institutes for Biomedical Research Co., Shanghai, China
 
 This half-day short course introduces how causal inference approaches are relevant and used in the implementation of
 estimands framework in drug development. It includes 4 lectures:
@@ -108,7 +124,10 @@ Lecture 4 - Conditional and Marginal Treatment Effects:
 
 ## Bayesian methods for missing covariates in longitudinal studies
 **Keywords:** Bayesian Methods; Missing Data; Longitudinal Data; Imputation  
-**Instructors:** Nicole Erler and Emmanuel Lesaffre
+**Instructors:** 
+
+* Nicole Erler, Erasmus University Medical Center, Rotterdam, the Netherlands
+* Emmanuel Lesaffre, KU Leuven, Belgium
 
 Missing values commonly complicate the analysis of observational data. Multiple imputation (MI) is considered the “gold
 standard” for handling incomplete covariates. MI, developed at the beginning of the Computer Age, is based on Bayesian
@@ -128,7 +147,10 @@ complex joint models for longitudinal and survival data and imputation in non-st
 
 ## Go fastR: High Performance Computing with R	
 **Keywords**: statistical computing, R; HPC; clustermq; batchtools; Stan; Bayesian; clinical trial simulations    
-**Instructors:** Michael Mayer and Lukas Widmer  
+**Instructors:** 
+
+* Michael Mayer, Posit PBC, Boston, USA
+* Lukas Widmer, Novartis Pharma AG, Basel, Switzerland 
 
 This course will help participants to optimize their R code as well as parallelizing and debugging it on their own machines
 as well as high-performance computing environments. Example use cases include commonly performed activities for
@@ -161,7 +183,10 @@ Part III: Case studies and code examples
 
 ## Target Trial Emulation for Causal Inference from Real-World Data
 **Keywords**: observational data, avoding self-inflicted biases, comparing treatment strategies    
-**Instructors:** Vanessa Didelez and Maria Geers  
+**Instructors:** 
+
+* Vanessa Didelez, Leibniz Institute for Prevention Research and Epidemiology - BIPS, Bremen, Germany
+* Maria Geers, Leibniz Institute for Prevention Research and Epidemiology - BIPS, Bremen, Germany
 
 Target trial emulation (TTE) is a general principle to organize and structure the analysis of observational data, such as
 electronic health records, claims or registry data, so as to minimize common but avoidable sources of bias, e.g.
@@ -186,7 +211,11 @@ TTE that will facilitate studying the more advanced literature.
 
 ## Improving Precision and Power in Randomized Trials by Leveraging Baseline Variables
 **Keywords**: covariate adjustment; causal inference; standardization; treatment policy; robustness; group sequential designs  
-**Instructors:** Kelly Van Lancker, Michael Rosenblum and Josh Betz  
+**Instructors:** 
+
+* Kelly Van Lancker, Ghent University, Belgium
+* Michael Rosenblum, Johns Hopkins Bloomberg School of Public Health, Baltimore, U.S.A.
+* Josh Betz, Johns Hopkins Bloomberg School of Public Health, Baltimore, U.S.A.
 
 In May 2021, the U.S. Food and Drug Administration (FDA) released a revised draft guidance for industry on “Adjustment
 for Covariates in Randomized Clinical Trials for Drugs and Biological Products”. Covariate adjustment is a statistical
@@ -211,7 +240,9 @@ apply software tools on the different datasets.
 
 ## Model and Algorithm Evaluation in Supervised Machine Learning
 **Keywords**: prediction; performance; validation; comparison; benchmark  
-**Instructors**: Max Westphal  
+**Instructors**: 
+
+* Max Westphal, Fraunhofer Institute for Digital Medicine MEVIS, Bremen, Germany
 
 The statistical evaluation of developed models and algorithms is an essential part of applied machine learning and
 predictive modelling. This half-day course is suitable as a concise introduction or refresher for this important topic. It is
