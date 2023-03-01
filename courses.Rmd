@@ -18,21 +18,15 @@ library(readxl)
 library(knitr)
 library(kableExtra)
 
-morning_courses <- tribble(
-  ~Course, ~Instructors,
-  "Advanced group-sequential and adaptive confirmatory clinical trial designs, with R practicals using rpact (Part 1)", "Marcel Wolbers, Kaspar Rufibach, Gernot Wassmer and Marc Vandemeulebroecke",  
-  "Implementing the estimand framework in global drug development: Application of causal inference approaches", "Mouna Akacha, Björn Bornkamp, Alex Ocampo and Jiawei Wei",
-  "Bayesian methods for missing covariates in longitudinal studies", "Nicole Erler and Emmanuel Lesaffre",
-  "Go fastR: High Performance Computing with R", "Michael Mayer and Lukas Widmer"
-)
-
-afternoon_courses <- tribble(
-  ~Course, ~Instructors,
-  "Advanced group-sequential and adaptive confirmatory clinical trial designs, with R practicals using rpact (Part 2)", "Marcel Wolbers, Kaspar Rufibach, Gernot Wassmer and Marc Vandemeulebroecke",   
-  "Target Trial Emulation for Causal Inference from Real-World Data", "Vanessa Didelez and Maria Geers",
-  "Improving Precision and Power in Randomized Trials by Leveraging Baseline Variables", "Kelly Van Lancker, Michael Rosenblum and Josh Betz",
-  "Model and Algorithm Evaluation in Supervised Machine Learning", "Max Westphal"
-  
+courses <- tribble(
+  ~Time, ~`Virtual attendance possible?`, ~Course, ~Instructors,
+  "Full-day", "No", "Advanced group-sequential and adaptive confirmatory clinical trial designs, with R practicals using rpact (Part 1)", "Marcel Wolbers, Kaspar Rufibach, Gernot Wassmer and Marc Vandemeulebroecke",  
+  "Morning", "Yes", "Implementing the estimand framework in global drug development: Application of causal inference approaches", "Mouna Akacha, Björn Bornkamp, Alex Ocampo and Jiawei Wei",
+#  "Morning", "TBD", "Bayesian methods for missing covariates in longitudinal studies", "Nicole Erler and Emmanuel Lesaffre",
+  "Morning", "TBD", "Go fastR: High Performance Computing with R", "Michael Mayer and Lukas Widmer", 
+  "Afternoon", "Yes", "Target Trial Emulation for Causal Inference from Real-World Data", "Vanessa Didelez and Maria Geers",
+  "Afternoon", "Yes", "Improving Precision and Power in Randomized Trials by Leveraging Baseline Variables", "Kelly Van Lancker, Michael Rosenblum and Josh Betz",
+  "Afternoon", "Yes", "Model and Algorithm Evaluation in Supervised Machine Learning", "Max Westphal"
 )
 
 
@@ -43,25 +37,19 @@ The following short courses will be held on Sunday, 3<sup>rd</sup> of September 
 
 Note that courses may still be cancelled due to low registrations or moved to a different time slot up to on June 1<sup>st</sup>.
 
+```{r, echo=F, include=T, results = "asis"}
+kable(courses) %>%
+  column_spec(3, width = "60%") %>%
+  column_spec(4, width = "15%") %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+cat("\n") 
+```
 
-#### Morning
-```{r, echo=F, include=T, results = "asis"}
-kable(morning_courses) %>%
-  column_spec(1, width = "70%") %>%
-  kable_styling(bootstrap_options = c("striped", "hover"))
-cat("\n") 
-```
-#### Afternoon
-```{r, echo=F, include=T, results = "asis"}
-kable(afternoon_courses) %>%
-  column_spec(1, width = "70%") %>%
-  kable_styling(bootstrap_options = c("striped", "hover"))
-cat("\n") 
-```
 
 <br>
 
 ## Advanced group-sequential and adaptive confirmatory clinical trial designs, with R practicals using rpact
+**Hybrid?:** No.  
 **Keywords:** interim analyses; sample size re-calculation; multi-arm multi-stage designs  
 **Instructors:**
 
@@ -85,6 +73,7 @@ make this course very interactive.
 <br>
 
 ## Implementing the estimand framework in global drug development: Application of causal inference approaches
+**Hybrid?:** Yes.  
 **Keywords**: causal inference; conditional estimand; marginal estimand; standardization; ICH E9(R1); hypothetical estimand; principal stratum estimand  
 **Instructors**:
 
@@ -122,28 +111,28 @@ Lecture 4 - Conditional and Marginal Treatment Effects:
 <br>
 
 
-## Bayesian methods for missing covariates in longitudinal studies
-**Keywords:** Bayesian Methods; Missing Data; Longitudinal Data; Imputation  
-**Instructors:** 
+<!-- ## Bayesian methods for missing covariates in longitudinal studies -->
+<!-- **Keywords:** Bayesian Methods; Missing Data; Longitudinal Data; Imputation   -->
+<!-- **Instructors:**  -->
 
-* Nicole Erler, Erasmus University Medical Center, Rotterdam, the Netherlands
-* Emmanuel Lesaffre, KU Leuven, Belgium
+<!-- * Nicole Erler, Erasmus University Medical Center, Rotterdam, the Netherlands -->
+<!-- * Emmanuel Lesaffre, KU Leuven, Belgium -->
 
-Missing values commonly complicate the analysis of observational data. Multiple imputation (MI) is considered the “gold
-standard” for handling incomplete covariates. MI, developed at the beginning of the Computer Age, is based on Bayesian
-ideas. In complex settings, e.g. involving non-linear associations or multi-level data, the assumptions of the commonly
-used MI algorithms are, however, often violated, leading to possibly biased results.
-Thanks to the current computational power, a fully Bayesian approach, allowing us to simultaneously estimate
-parameters of interest and impute missing values, is now feasible. This approach is theoretically valid and superior to MI
-in complex settings. Highly complex non-standard missing data models can relatively easily be implemented with the
-help of freely available software such as the R package JointAI.
-In this course, we briefly review the essentials of multi-level data, Bayesian concepts and (multiple) imputation. The main
-focus is on the Bayesian approach to missing values in covariates in multi-level and longitudinal studies, which is
-motivated and illustrated using examples from clinical and epidemiological studies. Practical sessions will be organized
-to show the capabilities of the R package JointAI, starting with simpler standard settings and extending to highly
-complex joint models for longitudinal and survival data and imputation in non-standard settings.
-<br>
-<br>
+<!-- Missing values commonly complicate the analysis of observational data. Multiple imputation (MI) is considered the “gold -->
+<!-- standard” for handling incomplete covariates. MI, developed at the beginning of the Computer Age, is based on Bayesian -->
+<!-- ideas. In complex settings, e.g. involving non-linear associations or multi-level data, the assumptions of the commonly -->
+<!-- used MI algorithms are, however, often violated, leading to possibly biased results. -->
+<!-- Thanks to the current computational power, a fully Bayesian approach, allowing us to simultaneously estimate -->
+<!-- parameters of interest and impute missing values, is now feasible. This approach is theoretically valid and superior to MI -->
+<!-- in complex settings. Highly complex non-standard missing data models can relatively easily be implemented with the -->
+<!-- help of freely available software such as the R package JointAI. -->
+<!-- In this course, we briefly review the essentials of multi-level data, Bayesian concepts and (multiple) imputation. The main -->
+<!-- focus is on the Bayesian approach to missing values in covariates in multi-level and longitudinal studies, which is -->
+<!-- motivated and illustrated using examples from clinical and epidemiological studies. Practical sessions will be organized -->
+<!-- to show the capabilities of the R package JointAI, starting with simpler standard settings and extending to highly -->
+<!-- complex joint models for longitudinal and survival data and imputation in non-standard settings. -->
+<!-- <br> -->
+<!-- <br> -->
 
 ## Go fastR: High Performance Computing with R	
 **Keywords**: statistical computing, R; HPC; clustermq; batchtools; Stan; Bayesian; clinical trial simulations    
@@ -182,6 +171,7 @@ Part III: Case studies and code examples
 <br>
 
 ## Target Trial Emulation for Causal Inference from Real-World Data
+**Hybrid?:** Yes.  
 **Keywords**: observational data, avoding self-inflicted biases, comparing treatment strategies    
 **Instructors:** 
 
@@ -210,7 +200,8 @@ TTE that will facilitate studying the more advanced literature.
 <br>
 
 ## Improving Precision and Power in Randomized Trials by Leveraging Baseline Variables
-**Keywords**: covariate adjustment; causal inference; standardization; treatment policy; robustness; group sequential designs  
+**Hybrid?:** Yes.  
+**Keywords:** covariate adjustment; causal inference; standardization; treatment policy; robustness; group sequential designs  
 **Instructors:** 
 
 * Kelly Van Lancker, Ghent University, Belgium
@@ -239,6 +230,7 @@ apply software tools on the different datasets.
 <br>
 
 ## Model and Algorithm Evaluation in Supervised Machine Learning
+**Hybrid?:** Yes.  
 **Keywords**: prediction; performance; validation; comparison; benchmark  
 **Instructors**: 
 
