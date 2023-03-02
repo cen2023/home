@@ -20,13 +20,13 @@ library(kableExtra)
 
 courses <- tribble(
   ~Time, ~`Virtual attendance possible?`, ~Course, ~Instructors,
-  "Full-day", "No", "Advanced group-sequential and adaptive confirmatory clinical trial designs, with R practicals using rpact (Part 1)", "Marcel Wolbers, Kaspar Rufibach, Gernot Wassmer and Marc Vandemeulebroecke",  
-  "Morning", "Yes", "Implementing the estimand framework in global drug development: Application of causal inference approaches", "Mouna Akacha, Björn Bornkamp, Alex Ocampo and Jiawei Wei",
+  "Full-day", "No", "<a href='#advanced-group-sequential-and-adaptive-confirmatory-clinical-trial-designs-with-r-practicals-using-rpact'>Advanced group-sequential and adaptive confirmatory clinical trial designs, with R practicals using rpact</a>", "Marcel Wolbers, Kaspar Rufibach, Gernot Wassmer and Marc Vandemeulebroecke",  
+  "Morning", "Yes", "<a href='#implementing-the-estimand-framework-in-global-drug-development-application-of-causal-inference-approaches'>Implementing the estimand framework in global drug development: Application of causal inference approaches</a>", "Mouna Akacha, Björn Bornkamp, Alex Ocampo and Jiawei Wei",
 #  "Morning", "TBD", "Bayesian methods for missing covariates in longitudinal studies", "Nicole Erler and Emmanuel Lesaffre",
-  "Morning", "TBD", "Go fastR: High Performance Computing with R", "Michael Mayer and Lukas Widmer", 
-  "Afternoon", "Yes", "Target Trial Emulation for Causal Inference from Real-World Data", "Vanessa Didelez and Maria Geers",
-  "Afternoon", "Yes", "Improving Precision and Power in Randomized Trials by Leveraging Baseline Variables", "Kelly Van Lancker, Michael Rosenblum and Josh Betz",
-  "Afternoon", "Yes", "Model and Algorithm Evaluation in Supervised Machine Learning", "Max Westphal"
+  "Morning", "Yes", "<a href='#go-fastr-high-performance-computing-with-r'>Go fastR: High Performance Computing with R</a>", "Michael Mayer and Lukas Widmer", 
+  "Afternoon", "Yes", "<a href='#target-trial-emulation-for-causal-inference-from-real-world-data'>Target Trial Emulation for Causal Inference from Real-World Data</a>", "Vanessa Didelez and Maria Geers",
+  "Afternoon", "Yes", "<a href='#improving-precision-and-power-in-randomized-trials-by-leveraging-baseline-variables'>Improving Precision and Power in Randomized Trials by Leveraging Baseline Variables</a>", "Kelly Van Lancker, Michael Rosenblum and Josh Betz",
+  "Afternoon", "Yes", "<a href='#model-and-algorithm-evaluation-in-supervised-machine-learning'>Model and Algorithm Evaluation in Supervised Machine Learning</a>", "Max Westphal"
 )
 
 
@@ -38,7 +38,7 @@ The following short courses will be held on Sunday, 3<sup>rd</sup> of September 
 Note that courses may still be cancelled due to low registrations or moved to a different time slot up to on June 1<sup>st</sup>.
 
 ```{r, echo=F, include=T, results = "asis"}
-kable(courses) %>%
+kable(courses, escape = F) %>%
   column_spec(3, width = "60%") %>%
   column_spec(4, width = "15%") %>%
   kable_styling(bootstrap_options = c("striped", "hover"))
@@ -135,6 +135,7 @@ Lecture 4 - Conditional and Marginal Treatment Effects:
 <!-- <br> -->
 
 ## Go fastR: High Performance Computing with R	
+**Hybrid?:** Yes.  
 **Keywords**: statistical computing, R; HPC; clustermq; batchtools; Stan; Bayesian; clinical trial simulations    
 **Instructors:** 
 
