@@ -35,7 +35,7 @@ courses <- tribble(
 
 The following short courses will be held on Sunday, 3<sup>rd</sup> of September 2023 (the day before the start of the conference).  
 
-Note that courses may still be cancelled due to low registrations or moved to a different time slot up to on June 1<sup>st</sup>.
+Note that courses are still subject to changes up to June 1<sup>st</sup>, for instance, they may still be cancelled due to low registrations or moved to a different time slot.
 
 ```{r, echo=F, include=T, results = "asis"}
 kable(courses, escape = F) %>%
