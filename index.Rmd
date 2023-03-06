@@ -15,9 +15,16 @@ output:
 ![](img/basel.jpg)
 
 # Latest News
-<b>[Confirmed sessions](sessions.html), [keynote & invited speakers](speakers.html), [courses](courses.html), [accommodation info ](accommodation.html) and [conference venue details](venue.html) are now available</b> <br>
+<b>
 
-<b>The [submission of abstracts](https://www.conftool.pro/cen2023/) for talks and posters [<font color="red">has been extended to Sunday, 05.03.2023</font>](https://www.conftool.pro/cen2023/) </b>. <br>
+* [Confirmed sessions](sessions.html), 
+* [keynote & invited speakers](speakers.html), 
+* [courses](courses.html), 
+* [accommodation info ](accommodation.html) and 
+* [conference venue details](venue.html) 
+
+are available, and the submission of abstracts for talks and posters is now closed.</b>. 
+<br>
 
 # CEN2023 Conference
 

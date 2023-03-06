@@ -38,8 +38,8 @@ key_dates[["Short courses"]] <-
 key_dates[["Abstracts and posters"]] <- 
   tribble(
     ~Date, ~Event,
-    ymd("2022-12-01"), "Call for submissions <a href='https://www.conftool.pro/cen2023/'><b><font color='red'>-&gt; NOW OPEN &lt;-</font></b></a>",
-    ymd("2023-03-05"), "Deadline for submissions <b><font color='red'>EXTENDED</font></b>",
+    ymd("2022-12-01"), "Call for submissions <b>CLOSED</b>",
+    ymd("2023-03-05"), "Deadline for submissions <b>EXPIRED</b>",
     ymd("2023-03-31"), "Notifications about submissions"
   )
 
