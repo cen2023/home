@@ -106,6 +106,14 @@ Stephen Senn has worked as a statistician but also as an academic in various pos
 **Keywords**: multiplicity, multiple endpoints, overall type I error  
 <br clear="both">
 
+<img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Florian_Klinglmueller.jpg">
+
+## Florian Klinglmüller
+**Austrian Agency for Health & Food Safety, Austria**  
+<br>
+**Keywords**: Survival analysis, non-proportional hazards, drug regulation
+<br clear="both">
+
 <img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Kelly_van_Lancker.jpg">
 
 ## Kelly Van Lancker
@@ -113,14 +121,6 @@ Stephen Senn has worked as a statistician but also as an academic in various pos
 <br>
 **Keywords**: covariate adjustment, causal inference, standardization, treatment policy, robustness  
 <br clear="both">
-
-<!-- <img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/John_O_Quigley.jpg"> -->
-
-<!-- ## John O’Quigley -->
-<!-- **University College London, UK**   -->
-<!-- <br> -->
-<!-- **Keywords**: Oncology, survival, non-proportional hazards, treatment effect process   -->
-<!-- <br clear="both"> -->
 
 <img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/David_Robertson.jpg">
 
