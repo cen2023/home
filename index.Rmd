@@ -36,6 +36,7 @@ The conference theme “From Data to Knowledge. Advancing Life Sciences.” high
 [Featured sessions](sessions.html) include
 
 - Best practices for Data Monitoring Committees and how to get there
+- Biometrical Journal Showcase - Editor’s Selection	
 - Industry meets academia: Session in memory of Dieter Hauschke
 - Statistics in Practice: Simulation studies as a tool to evaluate and compare the properties of statistical methods – an overview
 - Ten years of the STRengthening Analytical Thinking for Observational Studies (STRATOS) initiative – progress and looking to the future
