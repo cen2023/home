@@ -16,14 +16,15 @@ output:
 
 # Latest News
 <b>
+Now available and/or updated:
 
-* [Confirmed sessions](sessions.html), 
-* [keynote & invited speakers](speakers.html), 
-* [courses](courses.html), 
-* [accommodation info ](accommodation.html) and 
-* [conference venue details](venue.html) 
+* [Confirmed sessions](sessions.html)
+* [Keynote & invited speakers](speakers.html)
+* [Courses](courses.html)
+* [Accommodation information](accommodation.html)
+* [Conference venue details](venue.html) 
 
-are available, and the submission of abstracts for talks and posters is now closed.</b>. 
+The submission of abstracts for talks and posters is now closed.</b>
 <br>
 
 # CEN2023 Conference
@@ -47,7 +48,9 @@ CEN2023 is a joint conference of
 -   the [Polish Region](https://ptb.up.poznan.pl/en/)
 <!-- (https://sparrow.up.poznan.pl/polbiom/index.php?lang=en) -->
 
-of the [International Biometric Society (IBS)](https://www.biometricsociety.org) and supported by the [Basel Biometric society (BBS)](https://baselbiometrics.github.io/home/docs/index.html):
+of the [International Biometric Society (IBS)](https://www.biometricsociety.org) and supported by the [Basel Biometric society (BBS)](https://baselbiometrics.github.io/home/docs/index.html)
+
+This year, we offer the possibility for ‘tandem talks’ regarding biostatistics for joint presentations at CEN2023 and the [GMDS 2023](https://www.gmds2023.de/en/) conference in Heilbronn.
 
 ![](img/logos/all_logos_small_ub.png){width="80%"}
 
