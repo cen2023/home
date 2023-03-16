@@ -21,7 +21,7 @@ Now available and/or updated:
 * [Confirmed sessions](sessions.html)
 * [Keynote & invited speakers](speakers.html)
 * [Courses](courses.html)
-* [Accommodation information](accommodation.html)
+* [Accommodation information and <font color="red">SPAM WARNING</font>](accommodation.html) 
 * [Conference venue details](venue.html) 
 
 The submission of abstracts for talks and posters is now closed.</b>
