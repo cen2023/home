@@ -21,12 +21,13 @@ library(kableExtra)
 courses <- tribble(
   ~Time, ~`Virtual attendance possible?`, ~Course, ~Instructors,
   "Full-day", "No", "<a href='#advanced-group-sequential-and-adaptive-confirmatory-clinical-trial-designs-with-r-practicals-using-rpact'>Advanced group-sequential and adaptive confirmatory clinical trial designs, with R practicals using rpact</a>", "Marcel Wolbers, Kaspar Rufibach, Gernot Wassmer and Marc Vandemeulebroecke",  
+  "Full-day", "TBD", "<a href='#bayesian-methods-for-missing-covariates-in-longitudinal-studies'>Bayesian methods for missing covariates in longitudinal studies</a>", "Nicole Erler and Emmanuel Lesaffre",
+
   "Morning", "Yes", "<a href='#implementing-the-estimand-framework-in-global-drug-development-application-of-causal-inference-approaches'>Implementing the estimand framework in global drug development: Application of causal inference approaches</a>", "Mouna Akacha, Björn Bornkamp, Alex Ocampo and Jiawei Wei",
-#  "Morning", "TBD", "Bayesian methods for missing covariates in longitudinal studies", "Nicole Erler and Emmanuel Lesaffre",
-  "Morning", "Yes", "<a href='#go-fastr-high-performance-computing-with-r'>Go fastR: High Performance Computing with R</a>", "Michael Mayer and Lukas Widmer", 
+  "Morning", "No", "<a href='#go-fastr-high-performance-computing-with-r'>Go fastR: High Performance Computing with R</a>", "Michael Mayer and Lukas Widmer", 
   "Afternoon", "Yes", "<a href='#target-trial-emulation-for-causal-inference-from-real-world-data'>Target Trial Emulation for Causal Inference from Real-World Data</a>", "Vanessa Didelez and Maria Geers",
   "Afternoon", "Yes", "<a href='#improving-precision-and-power-in-randomized-trials-by-leveraging-baseline-variables'>Improving Precision and Power in Randomized Trials by Leveraging Baseline Variables</a>", "Kelly Van Lancker, Michael Rosenblum and Josh Betz",
-  "Afternoon", "Yes", "<a href='#model-and-algorithm-evaluation-in-supervised-machine-learning'>Model and Algorithm Evaluation in Supervised Machine Learning</a>", "Max Westphal"
+  "Afternoon", "Yes", "<a href='#model-and-algorithm-evaluation-in-supervised-machine-learning'>Model and Algorithm Evaluation in Supervised Machine Learning</a>", "Max Westphal and Rieke Alpers"
 )
 
 
@@ -72,6 +73,30 @@ make this course very interactive.
 <br>
 <br>
 
+## Bayesian methods for missing covariates in longitudinal studies
+**Hybrid?:** TBD  
+**Keywords:** Bayesian Methods; Missing Data; Longitudinal Data; Imputation  
+**Instructors:**
+
+* Nicole Erler, Erasmus University Medical Center, Rotterdam, the Netherlands
+* Emmanuel Lesaffre, KU Leuven, Belgium
+
+Missing values commonly complicate the analysis of observational data. Multiple imputation (MI) is considered the “gold
+standard” for handling incomplete covariates. MI, developed at the beginning of the Computer Age, is based on Bayesian
+ideas. In complex settings, e.g. involving non-linear associations or multi-level data, the assumptions of the commonly
+used MI algorithms are, however, often violated, leading to possibly biased results.
+Thanks to the current computational power, a fully Bayesian approach, allowing us to simultaneously estimate
+parameters of interest and impute missing values, is now feasible. This approach is theoretically valid and superior to MI
+in complex settings. Highly complex non-standard missing data models can relatively easily be implemented with the
+help of freely available software such as the R package JointAI.
+In this course, we briefly review the essentials of multi-level data, Bayesian concepts and (multiple) imputation. The main
+focus is on the Bayesian approach to missing values in covariates in multi-level and longitudinal studies, which is
+motivated and illustrated using examples from clinical and epidemiological studies. Practical sessions will be organized
+to show the capabilities of the R package JointAI, starting with simpler standard settings and extending to highly
+complex joint models for longitudinal and survival data and imputation in non-standard settings.
+<br>
+<br>
+
 ## Implementing the estimand framework in global drug development: Application of causal inference approaches
 **Hybrid?:** Yes.  
 **Keywords**: causal inference; conditional estimand; marginal estimand; standardization; ICH E9(R1); hypothetical estimand; principal stratum estimand  
@@ -111,31 +136,10 @@ Lecture 4 - Conditional and Marginal Treatment Effects:
 <br>
 
 
-<!-- ## Bayesian methods for missing covariates in longitudinal studies -->
-<!-- **Keywords:** Bayesian Methods; Missing Data; Longitudinal Data; Imputation   -->
-<!-- **Instructors:**  -->
 
-<!-- * Nicole Erler, Erasmus University Medical Center, Rotterdam, the Netherlands -->
-<!-- * Emmanuel Lesaffre, KU Leuven, Belgium -->
-
-<!-- Missing values commonly complicate the analysis of observational data. Multiple imputation (MI) is considered the “gold -->
-<!-- standard” for handling incomplete covariates. MI, developed at the beginning of the Computer Age, is based on Bayesian -->
-<!-- ideas. In complex settings, e.g. involving non-linear associations or multi-level data, the assumptions of the commonly -->
-<!-- used MI algorithms are, however, often violated, leading to possibly biased results. -->
-<!-- Thanks to the current computational power, a fully Bayesian approach, allowing us to simultaneously estimate -->
-<!-- parameters of interest and impute missing values, is now feasible. This approach is theoretically valid and superior to MI -->
-<!-- in complex settings. Highly complex non-standard missing data models can relatively easily be implemented with the -->
-<!-- help of freely available software such as the R package JointAI. -->
-<!-- In this course, we briefly review the essentials of multi-level data, Bayesian concepts and (multiple) imputation. The main -->
-<!-- focus is on the Bayesian approach to missing values in covariates in multi-level and longitudinal studies, which is -->
-<!-- motivated and illustrated using examples from clinical and epidemiological studies. Practical sessions will be organized -->
-<!-- to show the capabilities of the R package JointAI, starting with simpler standard settings and extending to highly -->
-<!-- complex joint models for longitudinal and survival data and imputation in non-standard settings. -->
-<!-- <br> -->
-<!-- <br> -->
 
 ## Go fastR: High Performance Computing with R	
-**Hybrid?:** Yes.  
+**Hybrid?:** No.    
 **Keywords**: statistical computing, R; HPC; clustermq; batchtools; Stan; Bayesian; clinical trial simulations    
 **Instructors:** 
 
@@ -236,6 +240,7 @@ apply software tools on the different datasets.
 **Instructors**: 
 
 * Max Westphal, Fraunhofer Institute for Digital Medicine MEVIS, Bremen, Germany
+* Rieke Alpers, Fraunhofer Institute for Digital Medicine MEVIS, Bremen, Germany
 
 The statistical evaluation of developed models and algorithms is an essential part of applied machine learning and
 predictive modelling. This half-day course is suitable as a concise introduction or refresher for this important topic. It is
