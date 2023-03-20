@@ -21,7 +21,7 @@ library(kableExtra)
 courses <- tribble(
   ~Time, ~`Virtual attendance possible?`, ~Course, ~Instructors,
   "Full-day", "No", "<a href='#advanced-group-sequential-and-adaptive-confirmatory-clinical-trial-designs-with-r-practicals-using-rpact'>Advanced group-sequential and adaptive confirmatory clinical trial designs, with R practicals using rpact</a>", "Marcel Wolbers, Kaspar Rufibach, Gernot Wassmer and Marc Vandemeulebroecke",  
-  "Full-day", "TBD", "<a href='#bayesian-methods-for-missing-covariates-in-longitudinal-studies'>Bayesian methods for missing covariates in longitudinal studies</a>", "Nicole Erler and Emmanuel Lesaffre",
+  "Full-day", "Yes", "<a href='#bayesian-methods-for-missing-covariates-in-longitudinal-studies'>Bayesian methods for missing covariates in longitudinal studies</a>", "Nicole Erler and Emmanuel Lesaffre",
 
   "Morning", "Yes", "<a href='#implementing-the-estimand-framework-in-global-drug-development-application-of-causal-inference-approaches'>Implementing the estimand framework in global drug development: Application of causal inference approaches</a>", "Mouna Akacha, Björn Bornkamp, Alex Ocampo and Jiawei Wei",
   "Morning", "No", "<a href='#go-fastr-high-performance-computing-with-r'>Go fastR: High Performance Computing with R</a>", "Michael Mayer and Lukas Widmer", 
@@ -74,7 +74,7 @@ make this course very interactive.
 <br>
 
 ## Bayesian methods for missing covariates in longitudinal studies
-**Hybrid?:** TBD  
+**Hybrid?:** Yes.  
 **Keywords:** Bayesian Methods; Missing Data; Longitudinal Data; Imputation  
 **Instructors:**
 
