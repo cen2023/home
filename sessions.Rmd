@@ -39,7 +39,7 @@ for (session in session_names) {
 
 ```{r, echo=F, include=T, results = "asis"}
 
-for (session in excel_sheets("data/sessions.xlsx")) {
+for (session in session_names) {
   print(print_session(session, sessions[[session]]))
   cat("\n")
   cat("<br>\n")

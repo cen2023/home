@@ -183,15 +183,7 @@ Part III: Case studies and code examples
 * Vanessa Didelez, Leibniz Institute for Prevention Research and Epidemiology - BIPS, Bremen, Germany
 * Maria Geers, Leibniz Institute for Prevention Research and Epidemiology - BIPS, Bremen, Germany
 
-Target trial emulation (TTE) is a general principle to organize and structure the analysis of observational data, such as
-electronic health records, claims or registry data, so as to minimize common but avoidable sources of bias, e.g.
-immortal-time bias. Moreover, formulating a target trial is helpful to elicit practically meaningful causal research
-questions with a clear interpretation. The workshop will explain the principle of TTE using examples from cancer
-screening, drug safety as well as nutritional epidemiology. For instance, we will illustrate how to emulate a target trial on
-screening colonoscopy, how this avoids design-related and other biases, while showing how results are badly affected if
-a naive study design is chosen that suffers from these biases. A brief overview of some relevant statistical methods will
-be given, such as the clone-censor-weight approach or the parametric g-formula. However, as will become clear, TTE is a
-fundamental principle that can be combined with various causal inference methods.
+Target trial emulation (TTE) is a general principle to organize and structure the analysis of observational data, such as electronic health records, claims or registry data, so as to minimize common but avoidable sources of bias, e.g. immortal-time bias. Moreover, formulating a target trial is helpful to elicit practically meaningful causal research questions (aka "estimands") with a clear interpretation. The workshop will explain the principle of TTE using examples from cancer screening, drug safety as well as nutritional epidemiology. For instance, we will illustrate how to emulate a target trial on screening colonoscopy, how this avoids design-related and other biases, while showing how results are badly affected if a naive study design is chosen that suffers from these biases. A brief overview of some relevant statistical methods will be given, such as the clone-censor-weight approach or the parametric g-formula. However, as will become clear, TTE is a fundamental principle that can be combined with various causal inference methods.
 
 Organization of the workshop:  
 There will be theoretical parts as well as worked examples, with hands-on tasks for the participants.  

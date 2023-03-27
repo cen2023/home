@@ -18,6 +18,7 @@ output:
 
 ::: {#hello .greeting .message style="background-color: #F0F0F0; margin-top: 10px; padding-top: 10px; padding-left: 15px; padding-right: 15px; padding-bottom: 5px; margin-bottom: 10px; font-weight:bold;"}
 # Latest News
+<font color="red">Early-bird registration will open on Saturday, April 1<sup>st</sup> and [registration information](registration.html) is now online.</font>  
 
 Now available and/or updated:
 
@@ -27,7 +28,6 @@ Now available and/or updated:
 * [Accommodation information and <font color="red">SPAM WARNING</font>](accommodation.html) 
 * [Conference venue details](venue.html) 
 
-The submission of abstracts for talks and posters is now closed.
 :::
 
 <br>
@@ -41,12 +41,16 @@ The conference theme “From Data to Knowledge. Advancing Life Sciences.” high
 <br>
 
 ::: {#hello .greeting .message style="background-color: #F0F0F0; margin-top: 10px; padding-top: 10px; padding-left: 15px; padding-right: 15px; padding-bottom: 5px; margin-bottom: 10px; "}
-<h4>[Featured sessions:](sessions.html)</h4>
+<h4>[Featured sessions:](sessions.html#Featured_Sessions)</h4>
 
 - Best practices for Data Monitoring Committees and how to get there
 - Biometrical Journal Showcase - Editor’s Selection	
 - Industry meets academia: Session in memory of Dieter Hauschke
 - Statistics in Practice: Simulation studies as a tool to evaluate and compare the properties of statistical methods – an overview
+- Young Statisticians Sessions and Panel Discussion
+
+<h4>[Satellite symposium:](sessions.html#Satellite_Symposium)</h4>
+
 - Ten years of the STRengthening Analytical Thinking for Observational Studies (STRATOS) initiative – progress and looking to the future
 :::
 
@@ -62,6 +66,8 @@ CEN2023 is a joint conference of
 of the [International Biometric Society (IBS)](https://www.biometricsociety.org) and supported by the [Basel Biometric society (BBS)](https://baselbiometrics.github.io/home/docs/index.html)
 
 This year, we offer the possibility for ‘tandem talks’ regarding biostatistics for joint presentations at CEN2023 and the [GMDS 2023](https://www.gmds2023.de/en/) conference in Heilbronn.
+
+The Biometrical Journal will publish a Special Issue related to CEN2023. More details will be communicated shortly.
 
 <br>
 

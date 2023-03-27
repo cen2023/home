@@ -15,6 +15,8 @@ navbar:
       menu:
         # - text: "Overview"
         #   href: index.html
+        - text: "Registration"
+          href: registration.html
         - text: "Key dates"
           href: dates.html
         - text: "Open calls"
@@ -36,7 +38,7 @@ navbar:
         - text: "Short courses"
           href: courses.html
         - text: "Conference Schedule (PDF)"
-          href: "data/CEN 2023 Basel V3 final.pdf"
+          href: "data/CEN 2023 Basel V4.pdf"
 
   output:
   html_document:

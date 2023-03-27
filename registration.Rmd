@@ -1,0 +1,73 @@
+---
+title: "Conference Registration"
+output: 
+  rmarkdown::html_document:
+    highlight: pygments
+    number_sections: no
+    self_contained: yes
+    toc: no
+    toc_depth: 2
+    toc_float: yes
+---
+```{r, echo=F, results=F, message=F, warning=F}
+library(tibble)
+library(dplyr)
+library(readxl)
+library(knitr)
+library(kableExtra)
+
+registration <- list()
+
+
+
+registration$in_person <- tribble(
+  ~"Type", ~"Regular", ~"IBS member", ~"Student",
+  "Early-bird", 360, 260, 50,
+  "Full", 440,	340,	75,
+  "Course (per half-day)",  100, 75, 25
+)
+
+registration$virtual <- tribble(
+  ~"Type", ~"Regular", ~"IBS member", ~"Student",
+  "Early-bird", 180, 130, 25,
+  "Full", 220,	170,	50,
+  "Course (per half-day)",  75, 50, 10
+)
+
+registration$dinner <- tribble(
+  ~"Type", ~"Regular", ~"IBS member", ~"Student",
+  "Dinner (separate)", 60, 60, 30
+) 
+
+for (reg_type in names(registration)){
+  registration[[reg_type]] <- registration[[reg_type]] %>%
+    mutate(across(where(is.numeric), \(x){paste0(x, " CHF")}))
+}
+
+print_reg_table <- function(tbl) {
+  kable(tbl, align="r") %>%
+  column_spec(1, width = "40%") %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+}
+```
+
+Registration for the CEN2023 conference <b>[is handled by conftool](https://www.conftool.pro/cen2023/)</b>. Early bird registration will open on Saturday, April 1<sup>st</sup>, 2023, and close on Wednesday, May 31<sup>st</sup>, 2023. Regular registration fees will apply afterwards, see below for details. Discounted rates apply for students (up to and including during PhD, a file must be uploaded to confirm the student status) and IBS (International Biometric Society) members. 
+
+If you are not an IBS member but wish to benefit from the reduced fees, then please apply first for IBS membership, e.g., following the processes outlined by [the IBS-ROeS](https://www.ibs-roes.org/mitgliedschaft/) or [the IBS-DR](http://www.biometrische-gesellschaft.de/en/die-gesellschaft/mitgliedschaft.html). After completing the membership registration, please register under the reduced membership fees below.
+
+<br>
+
+### In-person attendance
+```{r, echo=F, include=T}
+print_reg_table(registration$in_person)
+```
+### Virtual attendance
+```{r, echo=F, include=T}
+print_reg_table(registration$virtual)
+```
+
+### Conference dinner
+```{r, echo=F, include=T}
+print_reg_table(registration$dinner)
+```
+<br>
