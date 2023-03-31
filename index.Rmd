@@ -96,7 +96,7 @@ The Biometrical Journal will publish a Special Issue related to CEN2023. More de
 <a href="https://posit.co/">![](img/sponsors/posit-logo-fullcolor-TM.png){width="25%"}</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://www.sfa-phrt.ch/">![](img/sponsors/Logo_PHRT_2_compressed.png){width="35%"}</a>
-
+<a href="https://www.beigene.com/">![](img/sponsors/BeiGene.png){width="25%"}</a>
 
 <br>
 <br>
