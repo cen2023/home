@@ -11,7 +11,7 @@ output:
 ---
 
 ## Abstract submissions for talks and posters
-The call for abstracts is now closed. Notifications about submissions will be sent out by Friday, 31.03.2023.
+The call for abstracts is now closed, and notifications about submissions have been sent out.
 
 ## Short courses
 The call for short courses is now closed, and notifications about proposals have been sent out.
