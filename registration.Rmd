@@ -59,11 +59,11 @@ If you are not an IBS member but wish to benefit from the reduced fees, then ple
 
 ### In-person attendance
 ```{r, echo=F, include=T}
-print_reg_table(registration$in_person)
+print_reg_table(registration$in_person) %>% row_spec(1, color = "lightgray")
 ```
 ### Virtual attendance
 ```{r, echo=F, include=T}
-print_reg_table(registration$virtual)
+print_reg_table(registration$virtual) %>% row_spec(1, color = "lightgray")
 ```
 
 ### Conference dinner

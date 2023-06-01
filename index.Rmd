@@ -18,7 +18,7 @@ output:
 
 ::: {#hello .greeting .message style="background-color: #F0F0F0; margin-top: 10px; padding-top: 10px; padding-left: 15px; padding-right: 15px; padding-bottom: 5px; margin-bottom: 10px; font-weight:bold;"}
 # Latest News
-<font color="red">Early-bird registration in now open and will close on Wednesday, May 31st <sup>st</sup>. Follow the link to the [registration information](registration.html).</font>  
+<font color="red">The early-bird registration window has now expired, but last in-person registration tickets are still available for regular registration, as are tickets for virtual participation. Follow the link to the [registration information](registration.html).</font>  
 
 Now available and/or updated:
 
