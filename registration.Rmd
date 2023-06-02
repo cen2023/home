@@ -51,7 +51,7 @@ print_reg_table <- function(tbl) {
 }
 ```
 
-Registration for the CEN2023 conference <b>[is handled by conftool](https://www.conftool.pro/cen2023/)</b>. Early bird registration is now open and will close on Wednesday, May 31<sup>st</sup>, 2023. Regular registration fees will apply afterwards, see below for details. Discounted rates apply for students (up to and including during PhD, a file must be uploaded to confirm the student status) and IBS (International Biometric Society) members. 
+Registration for the CEN2023 conference <b>[is handled by conftool](https://www.conftool.pro/cen2023/). Note that only few in-person tickets remain and the conference dinner is sold out</b>. Additionally, regular registration fees now apply, see below for details. Discounted rates apply for students (up to and including during PhD, a file must be uploaded to confirm the student status) and IBS (International Biometric Society) members. 
 
 If you are not an IBS member but wish to benefit from the reduced fees, then please apply first for IBS membership, e.g., following the processes outlined by [the IBS-ROeS](https://www.ibs-roes.org/mitgliedschaft/) or [the IBS-DR](http://www.biometrische-gesellschaft.de/en/die-gesellschaft/mitgliedschaft.html). After completing the membership registration, please register under the reduced membership fees below.
 
@@ -68,6 +68,6 @@ print_reg_table(registration$virtual) %>% row_spec(1, color = "lightgray")
 
 ### Conference dinner
 ```{r, echo=F, include=T}
-print_reg_table(registration$dinner)
+print_reg_table(registration$dinner) %>% row_spec(1, color = "lightgray")
 ```
 <br>
