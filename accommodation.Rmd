@@ -28,10 +28,10 @@ The following hotels have conference block bookings from 3<sup>rd</sup> to 7<sup
 **Rate:** CHF 160/200.- for single/double room (including breakfast)  
 **Booking:** Write an e-mail to [hotel@odelya.ch](mailto:hotel@odelya.ch) or call (+41 61 260 21 21) with keyword "CEN2023 Conference"  
 
-### [Hotel D, 4*](https://www.hoteld-basel.ch/)
+### [Hotel D, 4*](https://www.hoteld-basel.ch/) - *SOLD OUT*
 **Location:** Blumenrain 19, 4051 Basel (11 min walk from venue)  
-**Rate:** CHF 157.- for single room (inclusive breakfast)  
-**Booking:** You can book online with promo code CEN2023  
+<span style="color:lightgray">**Rate:** CHF 157.- for single room (inclusive breakfast)  
+**Booking:** You can book online with promo code CEN2023</span>  
 
 ### [Hotel Ibis Bahnhof Basel, 2*](https://all.accor.com/hotel/6510/index.en.shtml)
 **Location:** Margarethenstrasse 35, 4053 Basel (3 minutes walk to Bahnhof SBB, ~25 minutes to venue by tram)  
