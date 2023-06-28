@@ -20,13 +20,9 @@ output:
 # Latest News
 <font color="red">The early-bird registration window has expired and in-person tickets have now sold out! Registration for virtual participation is [still available](registration.html).</font>  
 
-Now available and/or updated:
+The Biometrical Journal will publish a Special Issue related to CEN2023. Deadline for submission is December 15, 2023. Further details are available [here](https://onlinelibrary.wiley.com/page/journal/15214036/homepage/call_for_papers.html#CEN2023).
 
-* [Confirmed sessions](sessions.html)
-* [Keynote & invited speakers](speakers.html)
-* [Courses](courses.html)
-* [Accommodation information and <font color="red">SPAM WARNING</font>](accommodation.html) 
-* [Conference venue details](venue.html) 
+Please be aware of the [<font color="red">SPAM WARNING</font> on the accommodation information page.](accommodation.html) 
 
 :::
 
