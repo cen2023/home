@@ -30,8 +30,8 @@ navbar:
         #   href: getting_around.html
     - text: "Program"
       menu:
-        - text: "Conference Program"
-          href: "https://www.conftool.pro/cen2023/sessions.php"
+        # - text: "Conference Program"
+        #   href: "https://www.conftool.pro/cen2023/sessions.php"
         - text: "Conference Topics"
           href: topics.html
         - text: "Keynote & Invited Speakers"
@@ -40,6 +40,8 @@ navbar:
           href: sessions.html
         - text: "Short courses"
           href: courses.html
+        - text: "Conference Schedule (PDF)"
+          href: "data/CEN 2023 Basel V4.pdf"
 
 
   output:

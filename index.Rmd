@@ -18,7 +18,7 @@ output:
 
 ::: {#hello .greeting .message style="background-color: #F0F0F0; margin-top: 10px; padding-top: 10px; padding-left: 15px; padding-right: 15px; padding-bottom: 5px; margin-bottom: 10px; font-weight:bold;"}
 # Latest News
-<font color="red">The full <b>[conference program](https://www.conftool.pro/cen2023/sessions.php)</b> is now available!</font>  
+<!-- <font color="red">The full <b>[conference program](https://www.conftool.pro/cen2023/sessions.php)</b> is now available!</font>   -->
 
 <font color="red">The early-bird registration window has expired and in-person tickets have now sold out! Registration for virtual participation is [still available](registration.html).</font>  
 

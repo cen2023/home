@@ -10,6 +10,8 @@ output:
     toc_float: yes
 ---
 ```{r, echo=F, results=F, message=F, warning=F}
+here::i_am("sessions.Rmd")
+library(here)
 library(tibble)
 library(dplyr)
 library(readxl)
@@ -29,7 +31,7 @@ print_session <- function(session, data) {
     column_spec(1, width = "70%") %>%
     kable_styling(bootstrap_options = c("striped", "hover"))
 }
-session_names <- excel_sheets("data/sessions.xlsx")
+session_names <- excel_sheets(file.path(here::here(), "data/sessions.xlsx"))
 for (session in session_names) {
   sessions[[session]] <- read_excel("data/sessions.xlsx", sheet=session) 
 }
