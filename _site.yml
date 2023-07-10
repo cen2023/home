@@ -1,5 +1,6 @@
 name: "CEN 2023 Conference"
 output_dir: docs
+include: ["google00dfa7058d8b1152.html"]
 navbar:
   title: "CEN 2023 Conference"
   type: inverse
@@ -29,6 +30,8 @@ navbar:
         #   href: getting_around.html
     - text: "Program"
       menu:
+        - text: "Conference Program"
+          href: "https://www.conftool.pro/cen2023/sessions.php"
         - text: "Conference Topics"
           href: topics.html
         - text: "Keynote & Invited Speakers"
@@ -37,8 +40,7 @@ navbar:
           href: sessions.html
         - text: "Short courses"
           href: courses.html
-        - text: "Conference Schedule (PDF)"
-          href: "data/CEN 2023 Basel V4.pdf"
+
 
   output:
   html_document:

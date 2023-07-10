@@ -1,0 +1,60 @@
+---
+title: "Guidance for Poster Presenters"
+output: 
+  rmarkdown::html_document:
+    highlight: pygments
+    number_sections: no
+    self_contained: yes
+    toc: yes
+    toc_depth: 2
+    toc_float: yes
+---
+
+Thank you for presenting your poster at the CEN 2023 Conference in Basel, Switzerland. 
+
+In addition to the actual poster, we plan plenary Speed Poster Sessions where you will have the opportunity to do a quick, 1 minute, presentation of your poster to the audience. The aim of this session is to make the audience aware of your poster and invite them to visit it or contact you.
+
+Please find below some guidance for creating and submitting your poster for the conference:
+
+## Poster sessions
+We will have two 30-minute sessions in which you can present your poster. The sessions are on Monday and Tuesday mornings immediately after the keynote presentation. You can see the session to which you are assigned in the [schedule](https://www.conftool.pro/cen2023/sessions.php) online.
+After your <b>1-minute poster pitch</b>, your poster will be exhibited in the welcome area for the rest of the day.
+
+We are not organizing a dedicated poster session where you will be standing next to your poster, but we encourage you to stand next to your poster during the coffee break and lunch.
+
+## Poster Format
+Size: <b>A0 portrait</b> orientation
+
+## Speed Session Presentation Format
+* Please provide only <b><u>one slide</u></b> (no exceptions) in <b>PowerPoint (pptx) in 16:9 format</b>
+* Do not use any animations.
+* The slide should include the following: <b>poster title, author names, poster number and 3-4 headline messages</b> to encourage attendees to visit your poster. You can also add your email address or linkedin so that attendees can contact you.
+* You can find the <b>poster number in [conftool](https://www.conftool.pro/cen2023/sessions.php)</b>.
+* The slide must be in English
+* We <b><u>cannot</u></b> accept any other slide format since we are combining all poster pitch slides into one presentation.
+* Keynote will not be supported because it cannot be played back on a Windows PC. Please export your presentation as MS Office 365, using filename extension ‘.pptx’.
+* Clearly <b>identify your slide</b> with your presentation date, name, and poster number  in the filename (example: 04SEP23_John_Smith_poster_number.pptx)
+* <b>Please submit your slide within your conftool account no later than Wednesday, 30<sup>th</sup> of August</b>.
+* We <b><u>cannot</u></b> accept USB sticks or files via email at the conference.
+
+### Upload Instructions
+* When logging into conftool you can click on “Your Submission” to see your submission:  
+  ![](img/guidance/poster-yoursubmissions.png)  
+    
+*	Then click on final upload:  
+  ![](img/guidance/poster-finalupload.png)  
+    
+*	After choosing your file please upload and save the data.  
+  ![](img/guidance/poster-choosefile.png)  
+  
+  
+
+## At the conference
+
+*	Arrive 30 minutes before the first presentation of the day to hang your poster on the poster wall. Or hang it in the evening of the day before.
+*	Please arrive <b>at least 20 minutes before the first session of the day is due to start</b> since the Poster Pitches are starting right after the keynote. Please introduce yourself to the session Chairs and take a seat on the seat that is marked with your poster number.
+*	When starting the Speed Session after the keynote presentation, we will ask you to stand in line in front of the room for your poster pitch. This session will have a faster pace than other sessions. It is very important that you remember your poster number so that you are presenting the right slide.
+*	If you do not submit a slide, you can’t present your poster. Let us know if you do not want to submit a slide.
+*	The presentation of the poster slides will be controlled by the session chair. You will not be able to use a laser pointer or any other pointers.
+*	A microphone will be used for all presentations. Subject to speaker consent, the audio will be recorded and synchronised with the presentation slides and made available to all CEN attendees after the conference.
+*	Remove your poster after the last session of the day.
