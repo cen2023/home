@@ -18,7 +18,7 @@ Please find below some guidance for creating and submitting your presentation fo
 If you want to know your session date and time then visit the [schedule](https://www.conftool.pro/cen2023/sessions.php) online.
 
 ## Presentation Format
-*	Your presentation should be in a <b>PowerPoint (pptx)</b> or <b>PDF></b> file format. No other formats (e.g. Excel, Word or Prezi) will be accepted. 
+*	Your presentation should be in a <b>PowerPoint (pptx)</b> or <b>PDF</b> file format. No other formats (e.g. Excel, Word or Prezi) will be accepted. 
 *	All presentations will be projected in 16:9 format landscape (not 4:3) using the provided Powerpoint or PDF file on a Windows laptop.
 *	All presentations must be in English followed by Questions & Answers in English.
 *	Keynote will not be supported because it cannot be played back on a Windows PC. Please export your presentation as MS Office 365, using filename extension ‘.pptx’.

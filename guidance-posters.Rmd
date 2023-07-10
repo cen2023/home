@@ -26,10 +26,12 @@ We are not organizing a dedicated poster session where you will be standing next
 Size: <b>A0 portrait</b> orientation
 
 ## Speed Session Presentation Format
+* <b>Please submit your poster slide within your conftool account no later than Wednesday, 30<sup>th</sup> of August</b>.
 * Please provide only <b><u>one slide</u></b> (no exceptions) in <b>PowerPoint (pptx) in 16:9 format</b>
 * Do not use any animations.
 * The slide should include the following: <b>poster title, author names, poster number and 3-4 headline messages</b> to encourage attendees to visit your poster. You can also add your email address or linkedin so that attendees can contact you.
-* You can find the <b>poster number in [conftool](https://www.conftool.pro/cen2023/sessions.php)</b>.
+* You will find the <b>poster number in [conftool](https://www.conftool.pro/cen2023/sessions.php)</b> under keywords in your submitted abstract (number between 1 and 23 plus an M or T for Monday or Tuesday, e.g. T1, M23)  
+  ![](img/guidance/poster-keywords.png)  
 * The slide must be in English
 * We <b><u>cannot</u></b> accept any other slide format since we are combining all poster pitch slides into one presentation.
 * Keynote will not be supported because it cannot be played back on a Windows PC. Please export your presentation as MS Office 365, using filename extension ‘.pptx’.
