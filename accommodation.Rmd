@@ -14,8 +14,7 @@ output:
 WARNING: There are spam emails from "travellerpoint.org" targeting participants of CEN 2023. The emails ask to provide arrival and departure dates and credit card details. Do not reply to these scam emails and do not provide any personal information!
 :::
 
-
-The following hotels have conference block bookings from 3<sup>rd</sup> to 7<sup>th</sup> of September 2023 (4 nights):
+Hotels can be booked through [Basel Tourism's website](https://basel.com/en/Basel/ukv/?doSearch=1&date_from=03.09.2023&date_to=07.09.2023&number_adult[]=1&doRadiusSearch=1&RadiusSearchLocationID=TDS00020011757239816&serviceProviderTypes[]=WBX00020010000100231&serviceProviderTypes[]=WBX00020010000100214&reset=1) for the conference. In addition, the following hotels have conference block bookings from 3<sup>rd</sup> to 7<sup>th</sup> of September 2023 (4 nights):
 
 ### [Hotel Spalentor, 4*](https://www.hotelspalentor.ch)
 **Location:** Schönbeinstrasse 1, 4056 Basel (8 min walk from venue)  
