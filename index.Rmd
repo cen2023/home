@@ -75,17 +75,19 @@ The Biometrical Journal will publish a Special Issue related to CEN2023. More de
 <br>
 
 
-# Thank you to our sponsors
+# Thank you to our sponsors and funding bodies
 
-### Platinum Sponsors
+### Platinum Partners
 <a href="https://www.novartis.com/">![](img/sponsors/novartis_logo_pos_rgb.png){width="25%"}</a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://www.cytel.com/">![](img/sponsors/Cytel_Logo_Cobalt_blue_1000px.png){width="20%"}</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.snf.ch/">![](img/sponsors/SNF_logo_standard_web_color_pos_e.png){width="25%"}</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <br>
 <br>
 
-### Gold Sponsors
+### Gold Partners
 <a href="https://www.karger.com/">![](img/sponsors/Karger_RGB.jpg){width="25%"}</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://www.datamap.de/">![](img/sponsors/Logo DATAMAP1.jpg){width="25%"}</a>
@@ -105,7 +107,8 @@ The Biometrical Journal will publish a Special Issue related to CEN2023. More de
 <br>
 <br>
 
-<!-- ### Silver Sponsors -->
+### Silver Partners
+<a href="https://www.routledge.com/go/crc-press">![](img/sponsors/Chapman logo.jpg){width="25%"}</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
 # Contact information
