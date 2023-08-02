@@ -24,7 +24,7 @@ output:
 
 The Biometrical Journal will publish a Special Issue related to CEN2023. Deadline for submission is December 15, 2023. Further details are available [here](https://onlinelibrary.wiley.com/page/journal/15214036/homepage/call_for_papers.html#CEN2023).
 
-There is a link for [booking additional accomodation options](accommodation.html) available now. Please be aware of the [<font color="red">SPAM WARNING</font> on the accommodation information page.](accommodation.html) 
+There is a link for [booking additional accomodation options](accommodation.html) available now, as well as information on [childcare](childcare.html) and [Basel](about-basel.html). Please be aware of the [<font color="red">SPAM WARNING</font> on the accommodation information page.](accommodation.html) 
 
 :::
 

@@ -10,9 +10,9 @@ output:
     toc_float: yes
 ---
 
-The conference venue at Biozentrum offers a breastfeeding room (exact location to follow) that can be used by participants during the conference. 
+The conference venue at Biozentrum offers a breastfeeding room (exact location to follow) that can be used by participants during the conference. The key for the breastfeeding room can be picked up at the reception of Biozentrum.
 
-There is no childcare facilities on site, however, there are external providers in Basel that can be contacted:
+There are no childcare facilities on site, however, there are external providers in Basel that can be contacted:
 
 * [kindernaescht.ch](http://kindernaescht.ch/) at Marktplatz (15 minutes from the conference venue at Biozentrum by foot) can host kids from 18 months to 12 years on an hourly to daily basis by prior arrangement.
 * Contact Ms Sprüngli from [familea](https://www.familea.ch) at +41 61 260 82 82, who may be able to help with finding additional childcare options. 

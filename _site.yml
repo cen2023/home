@@ -20,16 +20,18 @@ navbar:
           href: registration.html
         - text: "Key dates"
           href: dates.html
-        - text: "Open calls"
-          href: calls.html
         - text: "Conference venue"
           href: venue.html
         - text: "Accommodation"
           href: accommodation.html
+        - text: "Childcare"
+          href: childcare.html
         - text: "Poster Guidance"
           href: guidance-posters.html
         - text: "Presenter Guidance"
           href: guidance-presenters.html
+        - text: "Calls (archive)"
+          href: calls.html
         # - text: "Getting around"
         #   href: getting_around.html
     - text: "Program"
@@ -46,7 +48,14 @@ navbar:
           href: courses.html
         # - text: "Conference Schedule (PDF)"
         #   href: "data/CEN 2023 Basel V4.pdf"
-
+    - text: "About Basel"
+      menu:
+        - text: "Overview"
+          href: about-basel.html
+        - text: "Basel Card"
+          href: basel-card.html
+        - text: "Restaurants"
+          href: restaurants.html
 
   output:
   html_document:

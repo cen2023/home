@@ -47,7 +47,7 @@ key_dates[["Registration"]] <-
   tribble(
     ~Date, ~Event,
     paste0(format(ymd("2023-04-01"),"%A, %d.%m.%Y"), " to ", format(ymd("2023-05-31"),"%A, %d.%m.%Y")), "Early bird registration deadline <b>EXPIRED</b> ",
-    paste0("From ", format(ymd("2023-06-01"),"%A, %d.%m.%Y")), "Regular registration <b><a href='registration.html'>OPEN</a></b>"
+    paste0("From ", format(ymd("2023-06-01"),"%A, %d.%m.%Y")), "Regular registration <b><a href='registration.html'>OPEN for virtual slots only</a></b>"
   )
 
 
