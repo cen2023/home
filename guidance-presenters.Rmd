@@ -17,6 +17,8 @@ Please find below some guidance for creating and submitting your presentation fo
 ## Session time
 If you want to know your session date and time then visit the [schedule](https://www.conftool.pro/cen2023/sessions.php) online.
 
+<b>The time allocated for a presentation is 20 minutes including Q&A (approx. 3 to 5 minutes).</b>
+
 ## Presentation Format
 *	Your presentation should be in a <b>PowerPoint (pptx)</b> or <b>PDF</b> file format. No other formats (e.g. Excel, Word or Prezi) will be accepted. 
 *	All presentations will be projected in 16:9 format landscape (not 4:3) using the provided Powerpoint or PDF file on a Windows laptop.
