@@ -49,15 +49,6 @@ Stephen Senn has worked as a statistician but also as an academic in various pos
 
 # Invited Speakers
 
-<img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Elias_Bareinboim.jpg">
-
-## Elias Bareinboim
-**Columbia University, New York, USA**  
-<br>
-**Keywords**: Causal inference, data fusion, transportability, generalizability  
-
-<br clear="both">
-
 <img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Robert_A_Beckman.jpg">
 
 ## Robert A. Beckman
@@ -112,6 +103,15 @@ Stephen Senn has worked as a statistician but also as an academic in various pos
 **Austrian Agency for Health & Food Safety, Austria**  
 <br>
 **Keywords**: Survival analysis, non-proportional hazards, drug regulation
+<br clear="both">
+
+<img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Jack_Kuipers.jpg">
+
+## Jack Kuipers
+**ETH Zürich, Basel, Switzerland**  
+<br>
+**Keywords**: Causal discovery, Causal inference, Structure learning, Bayesian networks  
+
 <br clear="both">
 
 <img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Kelly_van_Lancker.jpg">
