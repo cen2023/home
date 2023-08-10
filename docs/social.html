@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Social Programme</title>
+
+<script src="site_libs/header-attrs-2.23/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">CEN 2023 Conference</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    About CEN 2023
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="index.html">Overview</a>
+    </li>
+    <li>
+      <a href="committee.html">Committees</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Conference information
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="registration.html">Registration</a>
+    </li>
+    <li>
+      <a href="dates.html">Key dates</a>
+    </li>
+    <li>
+      <a href="venue.html">Conference venue</a>
+    </li>
+    <li>
+      <a href="accommodation.html">Accommodation</a>
+    </li>
+    <li>
+      <a href="childcare.html">Childcare</a>
+    </li>
+    <li>
+      <a href="guidance-posters.html">Poster Guidance</a>
+    </li>
+    <li>
+      <a href="guidance-presenters.html">Presenter Guidance</a>
+    </li>
+    <li>
+      <a href="calls.html">Calls (archive)</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Program
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="https://www.conftool.pro/cen2023/sessions.php">Conference Program</a>
+    </li>
+    <li>
+      <a href="topics.html">Conference Topics</a>
+    </li>
+    <li>
+      <a href="speakers.html">Keynote &amp; Invited Speakers</a>
+    </li>
+    <li>
+      <a href="sessions.html">Confirmed Sessions</a>
+    </li>
+    <li>
+      <a href="courses.html">Short courses</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    About Basel
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="about-basel.html">Overview</a>
+    </li>
+    <li>
+      <a href="basel-card.html">Basel Card</a>
+    </li>
+    <li>
+      <a href="restaurants.html">Restaurants</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Social Programme</h1>
+
+</div>
+
+
+<div id="townhall-reception" class="section level1">
+<h1>Townhall reception</h1>
+<div id="tuesday-september-5th-1800-2000"
+class="section level3 unlisted unnumbered">
+<h3 class="unlisted unnumbered">Tuesday, September 5<sup>th</sup>,
+18:00-20:00</h3>
+<p>The reception will take place at the city archives behind the
+parliament building (Rathaus). The address is Martinsgasse 2.</p>
+<p>See the map below for information on how to get there from the
+conference venue. It’s approximately a 20-minute walk.<br />
+<img src="img/social/townhall-reception.png" /><br />
+© OpenStreetMap, Mapbox and Mapcarta <br> <br></p>
+</div>
+</div>
+<div id="excursion" class="section level1">
+<h1>Excursion</h1>
+<div id="wednesday-september-6th-1430-1830"
+class="section level3 unlisted unnumbered">
+<h3 class="unlisted unnumbered">Wednesday, September 6<sup>th</sup>,
+14:30-18:30</h3>
+<p><b>Departure:</b> We will depart in buses from the conference venue
+to the Vitra Campus in Weil am Rhein (Germany) at 14:30. If you want to
+go to the Vitra Campus by yourself, you can find a travel description <a
+href="https://www.design-museum.de/fileadmin/user_upload/Redaktion/als_pdf/Anfahrtsbeschreibung_Vitra_Campus_EN_VDM.pdf">at
+this link</a>. In this case, please make sure that you arrive at Vitra
+before 15:00.</p>
+<p><b>Walk:</b> We will walk the <a
+href="https://www.24stops.info/en/intro/">Rehberger-Weg</a>. The
+Rehberger-Weg, which is around five kilometers long, links two
+countries, two municipalities, two cultural institutions – and countless
+stories. The path runs between Weil am Rhein and Riehen, between the <a
+href="https://www.design-museum.de/en/information.html">Vitra Campus</a>
+and the <a href="https://www.fondationbeyeler.ch/en/home">Fondation
+Beyeler</a>. The walk will end at the restaurant of the conference
+dinner.</p>
+<p><b>Equipment:</b> During the walks the national border is crossed.
+Please <b>carry an identity card</b> and wear sturdy shoes. We recommend
+that you download the <b>Multimedia Guide “24 Stops”</b> on your mobile
+which is available on <a
+href="https://play.google.com/store/apps/details?id=ch.fondationbeyeler.rehbergerweg&amp;hl=de">Google
+Play (for Android devices)</a> and on the <a
+href="https://apps.apple.com/ca/app/24-stops/id1116088034">Apple App
+store</a>. <br> <br></p>
+</div>
+</div>
+<div id="conference-dinner" class="section level1">
+<h1>Conference dinner</h1>
+<div id="wednesday-september-6th-from-1900"
+class="section level3 unlisted unnumbered">
+<h3 class="unlisted unnumbered">Wednesday, September 6<sup>th</sup>,
+from 19:00</h3>
+<p>The conference dinner is at the <a
+href="https://www.basel.com/en/restaurants-nightlife/landgasthof-riehen-52492bae9b">Restaurant
+Landgasthof Riehen</a>, Baselstrasse 38, 4125 Riehen (<a
+href="https://www.google.com/maps/place/Landgasthof+Riehen/@47.5843449,7.6497924,15z/data=!4m9!3m8!1s0x4791b74c4a3eec65:0x116320e5c1fd33e7!5m2!4m1!1i2!8m2!3d47.5843449!4d7.6497924!16s%2Fg%2F1tdb_kqp?entry=ttu">google
+maps link</a>).</p>
+<div id="public-transport-to-and-from-the-restaurant"
+class="section level4">
+<h4>Public transport to and from the restaurant</h4>
+<p>If you do not join the conference excursion, you can reach the
+restaurant via Tram 6 (direction “Riehen Grenze”) from several central
+locations in Basel (e.g. Barfüsserplatz, Marktplatz, Claraplatz, or
+Messe; departures every 8 minutes) in 15-25 minutes. Depart from the
+tram at “Riehen Dorf” and walk for 80 meters (the restaurant is on the
+same street as the tramline).</p>
+<p>To return to your hotel after the conference dinner, you can again
+use Tram 6 (from tram stop “Riehen Dorf”, direction “Allschwil Dorf”).
+The tram stop is close to the restaurant and trams run every 8 minutes
+until 22:59 and thereafter every 15 minutes. It stops at several central
+locations in Basel. <br><br></p>
+</div>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
