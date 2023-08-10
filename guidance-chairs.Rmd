@@ -18,7 +18,7 @@ Please find below some guidance for chairing at the conference:
 
 * You will find the session you are assigned to in [conftool](https://www.conftool.pro/cen2023). Please log in with your registration details to check them. You will see all speakers and abstracts of the assigned sessions in this overview. You can also check the conference program on the [conference website](index.html):  
 [![](img/guidance/chairs-info.png)](https://www.conftool.pro/cen2023/index.php?page=showModerator)
-* Get in touch with your co-chair before or at the conference to discuss your roles.
+* Get in touch with your co-chair before or at the conference to discuss your roles. The email address of your co-chair is displayed in conftool under the above-stated option.
 * Each session has two chairs since all sessions are run in a hybrid format. One of you will be responsible for the moderation in the room and the other one should keep an eye on the zoom chat. You can also switch roles between the talks if you are both present in the room.
 * For moderating the zoom chat, a laptop that is connected to the stream will be available in the room. Alternatively, you can also connect to the stream from your phone.
 * You can reach out to the speakers in advance to ask if they want to suggest one or two questions for their presentation to help with preparing the Q&A.
