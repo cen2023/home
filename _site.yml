@@ -26,10 +26,14 @@ navbar:
           href: accommodation.html
         - text: "Childcare"
           href: childcare.html
+        - text: "Social Programme"
+          href: social.html          
         - text: "Poster Guidance"
           href: guidance-posters.html
         - text: "Presenter Guidance"
           href: guidance-presenters.html
+        - text: "Guinance for Chairs"
+          href: guidance-chairs.html
         - text: "Calls (archive)"
           href: calls.html
         # - text: "Getting around"

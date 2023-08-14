@@ -12,7 +12,7 @@ output:
 
 
 ```{r, echo=F, results=F, message=F, warning=F}
-library(tibble)
+library(tibble) 
 library(dplyr)
 library(readxl)
 library(knitr)
