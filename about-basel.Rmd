@@ -10,13 +10,20 @@ output:
     toc_float: yes
 ---
 
+<div style="position: relative; padding-bottom: 56.25%;">
+<iframe frameborder="0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/76WTm9Q0w_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+</iframe></div>
+
+
 <div style="display:none">
 
 # About Basel
 
 </div>
 
-Basel – Switzerland’s Capital for Art and Culture
+<br><br>
+
+## Basel – Switzerland’s Capital for Art and Culture
 
 Nestled in the heart of Europe, on both banks of the Rhine,Basel is a pocket-sized metropolis that combines proverbial Swiss quality with a multicultural population.
 
