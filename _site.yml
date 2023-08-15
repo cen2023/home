@@ -32,8 +32,10 @@ navbar:
           href: guidance-posters.html
         - text: "Presenter Guidance"
           href: guidance-presenters.html
-        - text: "Guinance for Chairs"
+        - text: "Guidance for Chairs"
           href: guidance-chairs.html
+        - text: "Course Presenter Guidance"
+          href: guidance-courses.html
         - text: "Calls (archive)"
           href: calls.html
         # - text: "Getting around"

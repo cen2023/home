@@ -84,27 +84,36 @@ This year, we offer the possibility for ‘tandem talks’ regarding biostatisti
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <br>
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.basel.com/">![](img/sponsors/Logo_Basel_URL_black_ohne Beschnitt.png){width="22%"}</a> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.basel.com/">![](img/sponsors/Logo_Basel_URL_black_ohne Beschnitt.png){width="22%"}</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.springer.com/">![](img/sponsors/Springer.gif){width="25%"}</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.roche.com/">![](img/sponsors/Roche.png){width="22%"}</a>
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.amgen.com/">![](img/sponsors/Amgen.png){width="22%"}</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <br>
 <br>
 
 ### Gold Partners
 <a href="https://www.karger.com/">![](img/sponsors/Karger_RGB.jpg){width="25%"}</a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://www.datamap.de/">![](img/sponsors/Logo DATAMAP1.jpg){width="25%"}</a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://www.boehringer-ingelheim.com/">![](img/sponsors/BI_Logo_PMS288.png){width="25%"}</a>
 <br>
 <br>
 <a href="https://posit.co/">![](img/sponsors/posit-logo-fullcolor-TM.png){width="25%"}</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.sfa-phrt.ch/">![](img/sponsors/Logo_PHRT_2_compressed.png){width="35%"}</a>
+<a href="https://www.sfa-phrt.ch/">![](img/sponsors/Logo_PHRT_2_compressed.png){width="35%"}</a>&nbsp;&nbsp;
 <a href="https://www.beigene.com/">![](img/sponsors/BeiGene.png){width="25%"}</a>
 <br>
 <br>
-<a href="https://www.denalitherapeutics.com/">![](img/sponsors/Denali_T_Logo_On_Gray_02.png){width="25%"}</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.bms.com/">![](img/sponsors/bms_logo_300_rgb_pos.original.png){width="25%"}</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.janssen.com/">![](img/sponsors/jsn_logo_jj_vert_color_rgb.png){width="25%"}</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.denalitherapeutics.com/">![](img/sponsors/Denali_T_Logo_On_Gray_02.png){width="25%"}</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.bms.com/">![](img/sponsors/bms_logo_300_rgb_pos.original.png){width="25%"}</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.janssen.com/">![](img/sponsors/jsn_logo_jj_vert_color_rgb.png){width="25%"}</a>
+<br>
+<a href="https://www.sanofi.com/">![](img/sponsors/SP_Sanofi_Logo.jpg){width="25%"}</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <br>
 <br>
 
