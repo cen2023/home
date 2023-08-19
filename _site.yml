@@ -42,16 +42,18 @@ navbar:
         #   href: getting_around.html
     - text: "Program"
       menu:
-        - text: "Conference Schedule (PDF)"
-          href: "data/5_ConferenceSchedule_tableFormat_v5Aug2023.pdf"
         - text: "Conference Program"
           href: "https://www.conftool.pro/cen2023/sessions.php"
-        - text: "Conference Topics"
-          href: topics.html
+        - text: "Conference Schedule (PDF)"
+          href: "data/ConferenceSchedule 1.0.pdf"
+        - text: "Conference Book (PDF)"
+          href: "data/ConferenceBook 1.0.pdf"
+        # - text: "Conference Topics"
+        #   href: topics.html
         - text: "Keynote & Invited Speakers"
           href: speakers.html
-        - text: "Confirmed Sessions"
-          href: sessions.html
+        # - text: "Confirmed Sessions"
+        #   href: sessions.html
         - text: "Short courses"
           href: courses.html
     - text: "About Basel"
