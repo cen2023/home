@@ -23,7 +23,9 @@ After your <b>1-minute poster pitch</b>, your poster will be exhibited in the we
 We are not organizing a dedicated poster session where you will be standing next to your poster, but we encourage you to stand next to your poster during the coffee break and lunch.
 
 ## Poster Format
-Size: <b>A0 portrait</b> orientation
+Size: <b>A0 portrait</b> orientation.  
+
+Printing: Note that there is <b>no printing service at the conference</b> and you will need to bring your printed poster with you.  
 
 ## Speed Session Presentation Format
 * <b>Please submit your poster slide within your conftool account no later than Wednesday, 30<sup>th</sup> of August</b>.
