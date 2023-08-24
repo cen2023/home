@@ -10,6 +10,10 @@ output:
     toc_float: yes
 ---
 
+# Apero
+
+### Monday, September 4<sup>th</sup>, 18:00-20:00 {.unlisted .unnumbered}
+The apero with the choice of tasting some wines on Monday will take place at Biozentrum (the conference venue) in front of the lecture halls.
 
 # Townhall reception 
 
