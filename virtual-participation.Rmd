@@ -1,0 +1,15 @@
+---
+title: "Virtual Participation"
+output: 
+  rmarkdown::html_document:
+    highlight: pygments
+    number_sections: no
+    self_contained: yes
+    toc: no
+    toc_depth: 2
+    toc_float: yes
+---
+
+*	All sessions will be streamed live via [Zoom](https://support.zoom.us/hc/en-us/p/zoom-meetings-guide) or [Google Meet](https://support.google.com/meet/?hl=en#topic=7306097). The dial-in link to the streams can be found in the program via [conftool](https://www.conftool.pro/cen2023/sessions.php). If a password is required it will also be stated in the program.
+*	Virtual participants can ask questions via the chat or Q&A functionality of Zoom or Google Meet. Please make sure that your microphone is muted.
+*	Only keynote sessions will be recorded and made available after the conference.

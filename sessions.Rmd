@@ -12,7 +12,7 @@ output:
 ```{r, echo=F, results=F, message=F, warning=F}
 here::i_am("sessions.Rmd")
 library(here)
-library(tibble)
+library(tibble)  
 library(dplyr)
 library(readxl)
 library(knitr)

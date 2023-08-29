@@ -27,7 +27,9 @@ navbar:
         - text: "Childcare"
           href: childcare.html
         - text: "Social Programme"
-          href: social.html          
+          href: social.html    
+        - text: "Virtual Participation"
+          href: virtual-participation.html
         - text: "Poster Guidance"
           href: guidance-posters.html
         - text: "Presenter Guidance"
