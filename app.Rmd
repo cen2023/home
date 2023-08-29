@@ -1,0 +1,15 @@
+---
+title: "Conference App"
+output: 
+  rmarkdown::html_document:
+    highlight: pygments
+    number_sections: no
+    self_contained: yes
+    toc: no
+    toc_depth: 2
+    toc_float: yes
+---
+
+The Conference4me smartphone app provides you with the most comfortable tool for planning your participation in the CEN 2023. Browse the complete programme directly from your phone or tablet and create your very own agenda on the fly. The app is available for [Android](https://play.google.com/store/apps/details?id=pl.pcss.myconf) and [iOS](http://itunes.apple.com/es/app/conference4me/id465916976?mt=8) devices.
+
+[Download the mobile app here](https://conference4me.psnc.pl/download/), or type "conference4me" in Google Play or iTunes App Store, and select the "CEN 2023" conference in Basel, Switzerland.

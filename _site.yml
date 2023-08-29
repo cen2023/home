@@ -50,8 +50,8 @@ navbar:
           href: "data/ConferenceSchedule 1.0.pdf"
         - text: "Conference Book (PDF)"
           href: "data/ConferenceBook 1.0.pdf"
-        # - text: "Conference Topics"
-        #   href: topics.html
+        - text: "Conference App"
+          href: app.html
         - text: "Keynote & Invited Speakers"
           href: speakers.html
         # - text: "Confirmed Sessions"
