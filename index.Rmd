@@ -20,6 +20,8 @@ output:
 # Latest News
 <font color="red">The final <b>[conference schedule](data/ConferenceSchedule 1.0.pdf)</b> and <b>[conference book](data/ConferenceBook 1.0.pdf) are now available, as well as the browsable <b>[conference program](https://www.conftool.pro/cen2023/sessions.php)</b>!</font>
 
+We leave whether you wear a mask (or not) up to you, if you do want to wear one please bring your own. In case you know you are COVID-positive, please join the conference virtually instead (no additional registration needed).
+
 <font color="red"> Registration for virtual participation is [still available](registration.html).</font>  
 
 The Biometrical Journal will publish a Special Issue related to CEN2023. Deadline for submission is December 15, 2023. Further details are available [here](https://onlinelibrary.wiley.com/page/journal/15214036/homepage/call_for_papers.html#CEN2023).
