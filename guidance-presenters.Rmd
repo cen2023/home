@@ -53,6 +53,7 @@ If you want to know your session date and time then visit the [schedule](https:/
 ## At the conference
 
 *	Speakers should arrive in the session room 10 minutes before the session is due to start. Please introduce yourself to the session Chairs. Be aware of the time for your presentation.
+* If you are presenting virtually, please also join the meeting 10 min early (as any in-person presenter) using the [links provided in conftool](https://www.conftool.pro/cen2023/sessions.php). Please check access to Google Meet and familiarize yourself with the system in advance of the conference.
 *	A technician will be present in each session room to assist speakers in accessing their respective presentations.
 *	All presentations will be controlled by the respective presenter from the lectern.
 *	A microphone will be used for all presentations. 
