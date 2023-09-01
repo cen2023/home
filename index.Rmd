@@ -18,7 +18,7 @@ output:
 
 ::: {#hello .greeting .message style="background-color: #F0F0F0; margin-top: 10px; padding-top: 10px; padding-left: 15px; padding-right: 15px; padding-bottom: 5px; margin-bottom: 10px; font-weight:bold;"}
 # Latest News
-<font color="red">The final <b>[conference schedule](data/ConferenceSchedule 1.0.pdf)</b> and <b>[conference book](data/ConferenceBook 1.0.pdf) are now available, as well as the browsable <b>[conference program](https://www.conftool.pro/cen2023/sessions.php)</b>!</font>
+<font color="red">The final <b>[conference schedule](data/ConferenceSchedule 1.1.pdf)</b> and <b>[conference book](data/ConferenceBook 1.1.pdf) are now available, as well as the browsable <b>[conference program](https://www.conftool.pro/cen2023/sessions.php)</b>!</font>
 
 We leave whether you wear a mask (or not) up to you, if you do want to wear one please bring your own. In case you know you are COVID-positive, please join the conference virtually instead (no additional registration needed).
 

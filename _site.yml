@@ -47,9 +47,9 @@ navbar:
         - text: "Conference Program"
           href: "https://www.conftool.pro/cen2023/sessions.php"
         - text: "Conference Schedule (PDF)"
-          href: "data/ConferenceSchedule 1.0.pdf"
+          href: "data/ConferenceSchedule 1.1.pdf"
         - text: "Conference Book (PDF)"
-          href: "data/ConferenceBook 1.0.pdf"
+          href: "data/ConferenceBook 1.1.pdf"
         - text: "Conference App"
           href: app.html
         - text: "Keynote & Invited Speakers"
