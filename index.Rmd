@@ -18,9 +18,10 @@ output:
 
 ::: {#hello .greeting .message style="background-color: #F0F0F0; margin-top: 10px; padding-top: 10px; padding-left: 15px; padding-right: 15px; padding-bottom: 5px; margin-bottom: 10px; font-weight:bold;"}
 # Latest News
+
 Please be reminded that the Biometrical Journal will publish a Special Issue related to CEN 2023. Deadline for submission is December 15, 2023. Further details are available [here](https://onlinelibrary.wiley.com/page/journal/15214036/homepage/call_for_papers.html#CEN2023).
 
-Thank you for joining the conference, and stay tuned for slides being made available early November pending speaker approval. The final <b>[conference schedule](data/ConferenceSchedule 1.1.pdf)</b> and <b>[conference book](data/ConferenceBook 1.1.pdf) are available, as well as the browsable <b>[conference program](https://www.conftool.pro/cen2023/sessions.php)</b>.
+Thank you for joining the conference, and stay tuned for slides being made available early November pending speaker approval. The final <b>[conference schedule](data/ConferenceSchedule%201.1.pdf)</b> and <b>[conference book](data/ConferenceBook%201.1.pdf) are available, as well as the browsable <b>[conference program](https://www.conftool.pro/cen2023/sessions.php)</b>. 
 :::
 
 <br>
@@ -29,22 +30,22 @@ Thank you for joining the conference, and stay tuned for slides being made avail
 
 <font size="4"> The 5<sup>th</sup> Conference of the [Central European Network](https://www.biometricsociety.org/about/regions-networks/central-european-network) will take place from <br> <b> 3-7 September, 2023, at the [Biozentrum](https://www.biozentrum.unibas.ch) of the [University](https://www.unibas.ch/en) of [Basel](https://www.basel.com), Switzerland</b>. </font>
 
-The conference theme “From Data to Knowledge. Advancing Life Sciences.” highlights the special and important role played by biometricians (statisticians and data scientists) when extracting knowledge from data with the ultimate goal of advancing life sciences. The goal of CEN2023 is to present and discuss recent developments in biometry with its applications in life sciences, medicine, pharmacology, research and development in pharmaceutical industry, environmental statistics, and genomics (see the [full list of topics](topics.html)).
+The conference theme "From Data to Knowledge. Advancing Life Sciences." highlights the special and important role played by biometricians (statisticians and data scientists) when extracting knowledge from data with the ultimate goal of advancing life sciences. The goal of CEN2023 is to present and discuss recent developments in biometry with its applications in life sciences, medicine, pharmacology, research and development in pharmaceutical industry, environmental statistics, and genomics (see the [full list of topics](topics.html)).
 
 <br>
 
-::: {#hello .greeting .message style="background-color: #F0F0F0; margin-top: 10px; padding-top: 10px; padding-left: 15px; padding-right: 15px; padding-bottom: 5px; margin-bottom: 10px; "}
+::: {.greeting .message style="background-color: #F0F0F0; margin-top: 10px; padding-top: 10px; padding-left: 15px; padding-right: 15px; padding-bottom: 5px; margin-bottom: 10px; "}
 <h4>[Featured sessions:](sessions.html#Featured_Sessions)</h4>
 
-- Best practices for Data Monitoring Committees and how to get there
-- Biometrical Journal Showcase - Editor’s Selection	
-- Industry meets academia: Session in memory of Dieter Hauschke
-- Statistics in Practice: Simulation studies as a tool to evaluate and compare the properties of statistical methods – an overview
-- Young Statisticians Sessions and Panel Discussion
+-   Best practices for Data Monitoring Committees and how to get there
+-   Biometrical Journal Showcase - Editor's Selection
+-   Industry meets academia: Session in memory of Dieter Hauschke
+-   Statistics in Practice: Simulation studies as a tool to evaluate and compare the properties of statistical methods -- an overview
+-   Young Statisticians Sessions and Panel Discussion
 
 <h4>[Satellite symposium:](sessions.html#Satellite_Symposium)</h4>
 
-- Ten years of the STRengthening Analytical Thinking for Observational Studies (STRATOS) initiative – progress and looking to the future
+-   Ten years of the STRengthening Analytical Thinking for Observational Studies (STRATOS) initiative -- progress and looking to the future
 :::
 
 <br>
@@ -53,70 +54,32 @@ CEN2023 is a joint conference of
 
 -   the [Austro-Swiss Region (ROeS)](https://www.ibs-roes.org),
 -   the [German Region (DR)](http://www.biometrische-gesellschaft.de) and
--   the [Polish Region](https://ptb.up.poznan.pl/en/)
-<!-- (https://sparrow.up.poznan.pl/polbiom/index.php?lang=en) -->
+-   the [Polish Region](https://ptb.up.poznan.pl/en/) <!-- (https://sparrow.up.poznan.pl/polbiom/index.php?lang=en) -->
 
 of the [International Biometric Society (IBS)](https://www.biometricsociety.org) and supported by the [Basel Biometric society (BBS)](https://baselbiometrics.github.io/home/docs/index.html)
 
-This year, we offer the possibility for ‘tandem talks’ regarding biostatistics for joint presentations at CEN2023 and the [GMDS 2023](https://www.gmds2023.de/en/) conference in Heilbronn.
+This year, we offer the possibility for 'tandem talks' regarding biostatistics for joint presentations at CEN2023 and the [GMDS 2023](https://www.gmds2023.de/en/) conference in Heilbronn.
 
 <br>
 
 ![](img/logos/all_logos_small_ub.png){width="80%"}
 
-<br>
-<br>
-
+<br> <br>
 
 # Thank you to our sponsors and funding bodies
 
 ### Platinum Partners
-<a href="https://www.novartis.com/">![](img/sponsors/novartis_logo_pos_rgb.png){width="25%"}</a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.cytel.com/">![](img/sponsors/Cytel_Logo_Cobalt_blue_1000px.png){width="20%"}</a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.snf.ch/">![](img/sponsors/SNF_logo_standard_web_color_pos_e.png){width="25%"}</a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.basel.com/">![](img/sponsors/Logo_Basel_URL_black_ohne Beschnitt.png){width="22%"}</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.springer.com/">![](img/sponsors/Springer.gif){width="25%"}</a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.roche.com/">![](img/sponsors/Roche.png){width="22%"}</a>
-<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.amgen.com/">![](img/sponsors/Amgen.png){width="22%"}</a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<br>
-<br>
+
+<a href="https://www.novartis.com/">![](img/sponsors/novartis_logo_pos_rgb.png){width="25%"}</a>            <a href="https://www.cytel.com/">![](img/sponsors/Cytel_Logo_Cobalt_blue_1000px.png){width="20%"}</a>              <a href="https://www.snf.ch/">![](img/sponsors/SNF_logo_standard_web_color_pos_e.png){width="25%"}</a>        <br> <br>      <a href="https://www.basel.com/">![](img/sponsors/Logo_Basel_URL_black_ohne%20Beschnitt.png){width="22%"}</a>        <a href="https://www.springer.com/">![](img/sponsors/Springer.gif){width="25%"}</a>           <a href="https://www.roche.com/">![](img/sponsors/Roche.png){width="22%"}</a> <br> <br>      <a href="https://www.amgen.com/">![](img/sponsors/Amgen.png){width="22%"}</a>            <br> <br>
 
 ### Gold Partners
-<a href="https://www.karger.com/">![](img/sponsors/Karger_RGB.jpg){width="25%"}</a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.datamap.de/">![](img/sponsors/Logo DATAMAP1.jpg){width="25%"}</a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.boehringer-ingelheim.com/">![](img/sponsors/BI_Logo_PMS288.png){width="25%"}</a>
-<br>
-<br>
-<a href="https://posit.co/">![](img/sponsors/posit-logo-fullcolor-TM.png){width="25%"}</a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.sfa-phrt.ch/">![](img/sponsors/Logo_PHRT_2_compressed.png){width="35%"}</a>&nbsp;&nbsp;
-<a href="https://www.beigene.com/">![](img/sponsors/BeiGene.png){width="25%"}</a>
-<br>
-<br>
-<a href="https://www.denalitherapeutics.com/">![](img/sponsors/Denali_T_Logo_On_Gray_02.png){width="25%"}</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.bms.com/">![](img/sponsors/bms_logo_300_rgb_pos.original.png){width="25%"}</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.janssen.com/">![](img/sponsors/jsn_logo_jj_vert_color_rgb.png){width="25%"}</a>
-<br>
-<a href="https://www.sanofi.com/">![](img/sponsors/SP_Sanofi_Logo.jpg){width="25%"}</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<br>
-<br>
+
+<a href="https://www.karger.com/">![](img/sponsors/Karger_RGB.jpg){width="25%"}</a>                <a href="https://www.datamap.de/">![](img/sponsors/Logo%20DATAMAP1.jpg){width="25%"}</a>                <a href="https://www.boehringer-ingelheim.com/">![](img/sponsors/BI_Logo_PMS288.png){width="25%"}</a> <br> <br> <a href="https://posit.co/">![](img/sponsors/posit-logo-fullcolor-TM.png){width="25%"}</a>        <a href="https://www.sfa-phrt.ch/">![](img/sponsors/Logo_PHRT_2_compressed.png){width="35%"}</a>   <a href="https://www.beigene.com/">![](img/sponsors/BeiGene.png){width="25%"}</a> <br> <br> <a href="https://www.denalitherapeutics.com/">![](img/sponsors/Denali_T_Logo_On_Gray_02.png){width="25%"}</a>               <a href="https://www.bms.com/">![](img/sponsors/bms_logo_300_rgb_pos.original.png){width="25%"}</a>                   <a href="https://www.janssen.com/">![](img/sponsors/jsn_logo_jj_vert_color_rgb.png){width="25%"}</a> <br> <a href="https://www.sanofi.com/">![](img/sponsors/SP_Sanofi_Logo.jpg){width="25%"}</a>       <br> <br>
 
 ### Silver Partners
-<a href="https://www.routledge.com/go/crc-press">![](img/sponsors/Chapman logo.jpg){width="25%"}</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
+<a href="https://www.routledge.com/go/crc-press">![](img/sponsors/Chapman%20logo.jpg){width="25%"}</a>      
 
 # Contact information
 
 [Contact us](mailto:organizers@cen2023.ch)
-
