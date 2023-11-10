@@ -18,6 +18,8 @@ output:
 <img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Peter_Buehlmann.jpg">
 Peter Bühlmann studied mathematics at ETH Zürich and received his doctoral degree in 1993 from the same institution. He was a Postdoctoral Fellow from 1994-1995 and a Neyman Assistant Professor from 1995 - 1997 at UC Berkeley, before he returned to ETH Zürich in 1997. From 2013 - 2017, he was Chair of the Department of Mathematics at ETH Zürich. He is a Fellow of the Institute of Mathematical Statistics, a Fellow of the American Statistical Association, and was Co-Editor of the Annals of Statistics from 2010 - 2012. Other honors which he recently received include Doctor Honoris Causa from the Université Catholique de Louvain in 2017, Neyman Lecturer 2018 elected by the Institute of Mathematical Statistics, Rothschild Lecturer 2018 at the Newton Institute (Cambridge), recipient of the Guy Medal in Silver 2018 from the Royal Statistical Society, and plenary speaker at the European Congress of Mathematics 2021.
 
+Keynote recording link to follow.
+
 <br clear="both">
 <br>
 
@@ -26,12 +28,16 @@ Peter Bühlmann studied mathematics at ETH Zürich and received his doctoral deg
 <img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Ruth_Keogh.jpg">
 Ruth Keogh is a Professor of Biostatistics and Epidemiology in the Medical Statistics Department at London School of Hygiene & Tropical Medicine. Her research focuses on statistical methods for the analysis of observational data, and she works especially on causal inference methodology and methods for the analysis of time-to-event data. She is particularly interested in addressing practical challenges arising in real applications and is involved in a number of areas of application in health research, with a particular focus on cystic fibrosis. Other areas of interest include methods for handling measurement error and missing data, prediction modelling, and design and analysis of case-control studies. Ruth is funded by a UK Research and Innovation Future Leaders Fellowship.
 
+[Keynote recording is now available](https://www.youtube.com/watch?v=HyTXI9hdyZM)
+
 <br clear="both">
 <br>
 
 ## Alicja Szabelska-Beręsewicz
 <img style="float: left; margin-right: 15px; margin-bottom: 10px" width="25%" src="img/speaker/compressed/Alicja_Szabelska-Beresewicz.jpg">
 Alicja Szabelska-Beręsewicz is an Adjunct Professor in the Department of Mathematical and Statistical Methods at Poznan University of Life Sciences. She gained her experience during research internships in Zurich, Williamsburg and a one-year Sciex.ch grant stay at the Functional Genomic Center Zurich. Her research focuses on the development of various statistical methods that can be applied to biological and medical issues connected to next-generation sequencing (NGS) experiments. In particular, the fields of interest are regression models and testing procedures applied to differential expression analysis, biodiversity of microbiomes, or detection of alternative splicing phenomena. She is collaborating with other scientists in many interdisciplinary projects concerning real-life issues that include the NGS data analysis. 
+
+[Keynote recording is now available](https://www.youtube.com/watch?v=N0tX61NYnpM)
 
 <br clear="both">
 <br>

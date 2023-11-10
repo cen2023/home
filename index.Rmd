@@ -21,14 +21,18 @@ output:
 
 Please be reminded that the Biometrical Journal will publish a Special Issue related to CEN 2023. Deadline for submission is December 15, 2023. Further details are available [here](https://onlinelibrary.wiley.com/page/journal/15214036/homepage/call_for_papers.html#CEN2023).
 
-Thank you for joining the conference, and stay tuned for slides being made available early November pending speaker approval. The final <b>[conference schedule](data/ConferenceSchedule%201.1.pdf)</b> and <b>[conference book](data/ConferenceBook%201.1.pdf) are available, as well as the browsable <b>[conference program](https://www.conftool.pro/cen2023/sessions.php)</b>. 
+Thank you for joining the conference. We are excited to inform you that the slides for the CEN 2023 conference are now [available on conftool after logging in](https://www.conftool.pro/cen2023/). We would like to emphasize that the availability of the slides is subject to the presenter's consent. We greatly appreciate the willingness of these presenters to contribute to the knowledge sharing within our conference community.
+
+In addition, [video recordings of the keynotes are now also available](speakers.html) (stay tuned for the third keynote).
+
+The final <b>[conference schedule](data/ConferenceSchedule%201.1.pdf)</b> and <b>[conference book](data/ConferenceBook%201.1.pdf) are available, as is the browsable <b>[conference program](https://www.conftool.pro/cen2023/sessions.php)</b>. 
 :::
 
 <br>
 
 # CEN2023 Conference
 
-<font size="4"> The 5<sup>th</sup> Conference of the [Central European Network](https://www.biometricsociety.org/about/regions-networks/central-european-network) will take place from <br> <b> 3-7 September, 2023, at the [Biozentrum](https://www.biozentrum.unibas.ch) of the [University](https://www.unibas.ch/en) of [Basel](https://www.basel.com), Switzerland</b>. </font>
+<font size="4"> The 5<sup>th</sup> Conference of the [Central European Network](https://www.biometricsociety.org/about/regions-networks/central-european-network)  took place from <br> <b> 3-7 September, 2023, at the [Biozentrum](https://www.biozentrum.unibas.ch) of the [University](https://www.unibas.ch/en) of [Basel](https://www.basel.com), Switzerland</b>. </font>
 
 The conference theme "From Data to Knowledge. Advancing Life Sciences." highlights the special and important role played by biometricians (statisticians and data scientists) when extracting knowledge from data with the ultimate goal of advancing life sciences. The goal of CEN2023 is to present and discuss recent developments in biometry with its applications in life sciences, medicine, pharmacology, research and development in pharmaceutical industry, environmental statistics, and genomics (see the [full list of topics](topics.html)).
 
