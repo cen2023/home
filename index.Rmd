@@ -23,7 +23,7 @@ Please be reminded that the Biometrical Journal will publish a Special Issue rel
 
 Thank you for joining the conference. We are excited to inform you that the slides for the CEN 2023 conference are now [available on conftool after logging in](https://www.conftool.pro/cen2023/). We would like to emphasize that the availability of the slides is subject to the presenter's consent. We greatly appreciate the willingness of these presenters to contribute to the knowledge sharing within our conference community.
 
-In addition, [video recordings of the keynotes are now also available](speakers.html) (stay tuned for the third keynote).
+In addition, [all video recordings of the keynotes are now also available](speakers.html).
 
 The final <b>[conference schedule](data/ConferenceSchedule%201.1.pdf)</b> and <b>[conference book](data/ConferenceBook%201.1.pdf) are available, as is the browsable <b>[conference program](https://www.conftool.pro/cen2023/sessions.php)</b>. 
 :::
