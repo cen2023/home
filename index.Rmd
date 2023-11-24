@@ -16,6 +16,100 @@ output:
 
 <br>
 
+<div class="pswp-gallery" id="gallery--getting-started"><center>
+  <a href="img/photos/compressed/0-venue-1.jpg" 
+    data-pswp-width="2000" 
+    data-pswp-height="1333" 
+    target="_blank">
+    <img src="img/photos/compressed/0-venue-1.jpg" alt="" width="24%"/>
+  </a>
+  <a href="img/photos/compressed/0-venue-2.jpg" 
+    data-pswp-width="2000" 
+    data-pswp-height="1333" 
+    target="_blank">
+    <img src="img/photos/compressed/0-venue-2.jpg" alt="" width="24%"/>
+  </a>
+  <a href="img/photos/compressed/1-opening-1.jpg" 
+    data-pswp-width="2000" 
+    data-pswp-height="1333" 
+    target="_blank">
+    <img src="img/photos/compressed/1-opening-1.jpg" alt="" width="24%"/>
+  </a>
+  <a href="img/photos/compressed/1-opening-2.jpg" 
+    data-pswp-width="2000" 
+    data-pswp-height="1333" 
+    target="_blank">
+    <img src="img/photos/compressed/1-opening-2.jpg" alt="" width="24%"/>
+  </a>
+  </center>
+  <a href="img/photos/compressed/1-opening-3.jpg" 
+    data-pswp-width="1333" 
+    data-pswp-height="2000" 
+    target="_blank">
+  </a>
+  <a href="img/photos/compressed/2-keynote-1.jpg" 
+    data-pswp-width="1333" 
+    data-pswp-height="2000"  
+    target="_blank">
+  </a>
+  <a href="img/photos/compressed/2-keynote-2.jpg" 
+    data-pswp-width="2000" 
+    data-pswp-height="1333" 
+    target="_blank">
+  </a>  
+  <a href="img/photos/compressed/2-keynote-3.jpg" 
+    data-pswp-width="1333" 
+    data-pswp-height="2000" 
+    target="_blank">
+  </a>
+  <a href="img/photos/compressed/3-posters.jpg" 
+    data-pswp-width="2000" 
+    data-pswp-height="1333" 
+    target="_blank">
+  </a>
+  <a href="img/photos/compressed/4-social-1.jpg" 
+    data-pswp-width="2000" 
+    data-pswp-height="1333" 
+    target="_blank">
+  </a>
+  <a href="img/photos/compressed/4-social-2.jpg" 
+    data-pswp-width="2000" 
+    data-pswp-height="1333" 
+    target="_blank">
+  </a>
+  <a href="img/photos/compressed/5-dinner-1.jpg" 
+    data-pswp-width="2000" 
+    data-pswp-height="1333" 
+    target="_blank">
+  </a>
+  <a href="img/photos/compressed/5-dinner-2.jpg" 
+    data-pswp-width="2000" 
+    data-pswp-height="1333" 
+    target="_blank">
+  </a>
+  <a href="img/photos/compressed/5-dinner-3.jpg" 
+    data-pswp-width="1333" 
+    data-pswp-height="2000" 
+    target="_blank">
+  </a>
+  <a href="img/photos/compressed/5-dinner-4.jpg" 
+    data-pswp-width="1333" 
+    data-pswp-height="2000" 
+    target="_blank">
+  </a>
+  <a href="img/photos/compressed/6-closing-1.jpg" 
+    data-pswp-width="2000" 
+    data-pswp-height="1333" 
+    target="_blank">
+  </a>
+    <a href="img/photos/compressed/6-closing-2.jpg" 
+    data-pswp-width="2000" 
+    data-pswp-height="1333" 
+    target="_blank">
+  </a>
+</div>
+
+
 ::: {#hello .greeting .message style="background-color: #F0F0F0; margin-top: 10px; padding-top: 10px; padding-left: 15px; padding-right: 15px; padding-bottom: 5px; margin-bottom: 10px; font-weight:bold;"}
 # Latest News
 
@@ -27,50 +121,23 @@ In addition, [all video recordings of the keynotes are now also available](speak
 
 The final <b>[conference schedule](data/ConferenceSchedule%201.1.pdf)</b> and <b>[conference book](data/ConferenceBook%201.1.pdf) are available, as is the browsable <b>[conference program](https://www.conftool.pro/cen2023/sessions.php)</b>. 
 :::
-<br>
+
+
+
 <link rel="stylesheet" href="photoswipe/dist/photoswipe.css">
 
-<script type="module">
-import PhotoSwipeLightbox from './photoswipe/dist/photoswipe-lightbox.esm.js';
-const lightbox = new PhotoSwipeLightbox({
-  gallery: '#my-gallery',
-  children: 'a',
-  pswpModule: () => import('./photoswipe/dist/photoswipe.esm.js')
-});
-lightbox.init();
+<script src="photoswipe/dist/umd/photoswipe.umd.min.js"></script>
+<script src="photoswipe/dist/umd/photoswipe-lightbox.umd.min.js"></script>
 
-
+<script type="text/javascript">
+  var lightbox = new PhotoSwipeLightbox({
+    gallery: '.pswp-gallery',
+    children: 'a',
+    // dynamic import is not supported in UMD version
+    pswpModule: PhotoSwipe 
+  });
+  lightbox.init();
 </script>
-
-<div class="pswp-gallery" id="gallery--getting-started">
-  <a href="img/photos/compressed/0-venue-1.jpg" 
-    data-pswp-width="1024" 
-    data-pswp-height="683" 
-    target="_blank">
-    <img src="img/photos/compressed/0-venue-1.jpg" alt="" width="24%"/>
-  </a>
-  <a href="img/photos/compressed/0-venue-2.jpg" 
-    data-pswp-width="1024" 
-    data-pswp-height="683" 
-    target="_blank">
-    <img src="img/photos/compressed/0-venue-2.jpg" alt="" width="24%"/>
-  </a>
-  <a href="img/photos/compressed/1-opening-1.jpg" 
-    data-pswp-width="1024" 
-    data-pswp-height="683" 
-    target="_blank">
-    <img src="img/photos/compressed/1-opening-1.jpg" alt="" width="24%"/>
-  </a>
-  <a href="img/photos/compressed/1-opening-2.jpg" 
-    data-pswp-width="1024" 
-    data-pswp-height="683" 
-    target="_blank">
-    <img src="img/photos/compressed/1-opening-2.jpg" alt="" width="24%"/>
-  </a>
-</div>
-
-
-
 
 
 

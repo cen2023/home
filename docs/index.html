@@ -434,6 +434,82 @@ Sciences.</h1>
 
 <p><img src="img/basel.jpg" /></p>
 <p><br></p>
+<div id="gallery--getting-started" class="pswp-gallery">
+<center>
+<a href="img/photos/compressed/0-venue-1.jpg" 
+    data-pswp-width="2000" 
+    data-pswp-height="1333" 
+    target="_blank">
+<img src="img/photos/compressed/0-venue-1.jpg" alt="" width="24%"/> </a>
+<a href="img/photos/compressed/0-venue-2.jpg" 
+    data-pswp-width="2000" 
+    data-pswp-height="1333" 
+    target="_blank">
+<img src="img/photos/compressed/0-venue-2.jpg" alt="" width="24%"/> </a>
+<a href="img/photos/compressed/1-opening-1.jpg" 
+    data-pswp-width="2000" 
+    data-pswp-height="1333" 
+    target="_blank">
+<img src="img/photos/compressed/1-opening-1.jpg" alt="" width="24%"/>
+</a> <a href="img/photos/compressed/1-opening-2.jpg" 
+    data-pswp-width="2000" 
+    data-pswp-height="1333" 
+    target="_blank">
+<img src="img/photos/compressed/1-opening-2.jpg" alt="" width="24%"/>
+</a>
+</center>
+<p><a href="img/photos/compressed/1-opening-3.jpg" 
+    data-pswp-width="1333" 
+    data-pswp-height="2000" 
+    target="_blank"> </a>
+<a href="img/photos/compressed/2-keynote-1.jpg" 
+    data-pswp-width="1333" 
+    data-pswp-height="2000"  
+    target="_blank"> </a>
+<a href="img/photos/compressed/2-keynote-2.jpg" 
+    data-pswp-width="2000" 
+    data-pswp-height="1333" 
+    target="_blank"> </a><br />
+<a href="img/photos/compressed/2-keynote-3.jpg" 
+    data-pswp-width="1333" 
+    data-pswp-height="2000" 
+    target="_blank"> </a> <a href="img/photos/compressed/3-posters.jpg" 
+    data-pswp-width="2000" 
+    data-pswp-height="1333" 
+    target="_blank"> </a>
+<a href="img/photos/compressed/4-social-1.jpg" 
+    data-pswp-width="2000" 
+    data-pswp-height="1333" 
+    target="_blank"> </a>
+<a href="img/photos/compressed/4-social-2.jpg" 
+    data-pswp-width="2000" 
+    data-pswp-height="1333" 
+    target="_blank"> </a>
+<a href="img/photos/compressed/5-dinner-1.jpg" 
+    data-pswp-width="2000" 
+    data-pswp-height="1333" 
+    target="_blank"> </a>
+<a href="img/photos/compressed/5-dinner-2.jpg" 
+    data-pswp-width="2000" 
+    data-pswp-height="1333" 
+    target="_blank"> </a>
+<a href="img/photos/compressed/5-dinner-3.jpg" 
+    data-pswp-width="1333" 
+    data-pswp-height="2000" 
+    target="_blank"> </a>
+<a href="img/photos/compressed/5-dinner-4.jpg" 
+    data-pswp-width="1333" 
+    data-pswp-height="2000" 
+    target="_blank"> </a>
+<a href="img/photos/compressed/6-closing-1.jpg" 
+    data-pswp-width="2000" 
+    data-pswp-height="1333" 
+    target="_blank"> </a>
+<a href="img/photos/compressed/6-closing-2.jpg" 
+    data-pswp-width="2000" 
+    data-pswp-height="1333" 
+    target="_blank"> </a></p>
+</div>
 <div id="hello" class="greeting message"
 style="background-color: #F0F0F0; margin-top: 10px; padding-top: 10px; padding-left: 15px; padding-right: 15px; padding-bottom: 5px; margin-bottom: 10px; font-weight:bold;">
 <div id="latest-news" class="section level1">
@@ -459,42 +535,18 @@ href="https://www.conftool.pro/cen2023/sessions.php">conference
 program</a></b>.</p>
 </div>
 </div>
-<p><br>
-<link rel="stylesheet" href="photoswipe/dist/photoswipe.css"></p>
-<script type="module">
-import PhotoSwipeLightbox from './photoswipe/dist/photoswipe-lightbox.esm.js';
-const lightbox = new PhotoSwipeLightbox({
-  gallery: '#my-gallery',
-  children: 'a',
-  pswpModule: () => import('./photoswipe/dist/photoswipe.esm.js')
-});
-lightbox.init();
-
-
+<p><link rel="stylesheet" href="photoswipe/dist/photoswipe.css"></p>
+<script src="photoswipe/dist/umd/photoswipe.umd.min.js"></script>
+<script src="photoswipe/dist/umd/photoswipe-lightbox.umd.min.js"></script>
+<script type="text/javascript">
+  var lightbox = new PhotoSwipeLightbox({
+    gallery: '.pswp-gallery',
+    children: 'a',
+    // dynamic import is not supported in UMD version
+    pswpModule: PhotoSwipe 
+  });
+  lightbox.init();
 </script>
-<div id="gallery--getting-started" class="pswp-gallery">
-<p><a href="img/photos/compressed/0-venue-1.jpg" 
-    data-pswp-width="1024" 
-    data-pswp-height="683" 
-    target="_blank">
-<img src="img/photos/compressed/0-venue-1.jpg" alt="" width="24%"/> </a>
-<a href="img/photos/compressed/0-venue-2.jpg" 
-    data-pswp-width="1024" 
-    data-pswp-height="683" 
-    target="_blank">
-<img src="img/photos/compressed/0-venue-2.jpg" alt="" width="24%"/> </a>
-<a href="img/photos/compressed/1-opening-1.jpg" 
-    data-pswp-width="1024" 
-    data-pswp-height="683" 
-    target="_blank">
-<img src="img/photos/compressed/1-opening-1.jpg" alt="" width="24%"/>
-</a> <a href="img/photos/compressed/1-opening-2.jpg" 
-    data-pswp-width="1024" 
-    data-pswp-height="683" 
-    target="_blank">
-<img src="img/photos/compressed/1-opening-2.jpg" alt="" width="24%"/>
-</a></p>
-</div>
 <p><br></p>
 <div id="cen2023-conference" class="section level1">
 <h1>CEN2023 Conference</h1>
