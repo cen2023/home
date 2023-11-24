@@ -427,7 +427,7 @@ div.tocify {
 <h1 class="title toc-ignore">From Data to Knowledge. <br>Advancing Life
 Sciences.</h1>
 <h4 class="author"></h4>
-<h4 class="date">Last update: 16 Nov 2023</h4>
+<h4 class="date">Last update: 24 Nov 2023</h4>
 
 </div>
 
@@ -458,6 +458,41 @@ as is the browsable <b><a
 href="https://www.conftool.pro/cen2023/sessions.php">conference
 program</a></b>.</p>
 </div>
+</div>
+<p><link rel="stylesheet" href="photoswipe/dist/photoswipe.css"></p>
+<script type="module">
+import PhotoSwipeLightbox from './photoswipe/dist/photoswipe-lightbox.esm.js';
+const lightbox = new PhotoSwipeLightbox({
+  gallery: '#my-gallery',
+  children: 'a',
+  pswpModule: () => import('./photoswipe/dist/photoswipe.esm.js')
+});
+lightbox.init();
+
+
+</script>
+<div id="gallery--getting-started" class="pswp-gallery">
+<p><a href="img/photos/compressed/0-venue-1.jpg" 
+    data-pswp-width="1024" 
+    data-pswp-height="683" 
+    target="_blank">
+<img src="img/photos/compressed/0-venue-1.jpg" alt="" width="24%"/> </a>
+<a href="img/photos/compressed/0-venue-2.jpg" 
+    data-pswp-width="1024" 
+    data-pswp-height="683" 
+    target="_blank">
+<img src="img/photos/compressed/0-venue-2.jpg" alt="" width="24%"/> </a>
+<a href="img/photos/compressed/1-opening-1.jpg" 
+    data-pswp-width="1024" 
+    data-pswp-height="683" 
+    target="_blank">
+<img src="img/photos/compressed/1-opening-1.jpg" alt="" width="24%"/>
+</a> <a href="img/photos/compressed/1-opening-2.jpg" 
+    data-pswp-width="1024" 
+    data-pswp-height="683" 
+    target="_blank">
+<img src="img/photos/compressed/1-opening-2.jpg" alt="" width="24%"/>
+</a></p>
 </div>
 <p><br></p>
 <div id="cen2023-conference" class="section level1">

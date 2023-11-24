@@ -27,6 +27,55 @@ In addition, [all video recordings of the keynotes are now also available](speak
 
 The final <b>[conference schedule](data/ConferenceSchedule%201.1.pdf)</b> and <b>[conference book](data/ConferenceBook%201.1.pdf) are available, as is the browsable <b>[conference program](https://www.conftool.pro/cen2023/sessions.php)</b>. 
 :::
+<link rel="stylesheet" href="photoswipe/dist/photoswipe.css">
+
+<script type="module">
+import PhotoSwipeLightbox from './photoswipe/dist/photoswipe-lightbox.esm.js';
+const lightbox = new PhotoSwipeLightbox({
+  gallery: '#my-gallery',
+  children: 'a',
+  pswpModule: () => import('./photoswipe/dist/photoswipe.esm.js')
+});
+lightbox.init();
+
+
+</script>
+
+<div class="pswp-gallery" id="gallery--getting-started">
+  <a href="img/photos/compressed/0-venue-1.jpg" 
+    data-pswp-width="1024" 
+    data-pswp-height="683" 
+    target="_blank">
+    <img src="img/photos/compressed/0-venue-1.jpg" alt="" width="24%"/>
+  </a>
+  <a href="img/photos/compressed/0-venue-2.jpg" 
+    data-pswp-width="1024" 
+    data-pswp-height="683" 
+    target="_blank">
+    <img src="img/photos/compressed/0-venue-2.jpg" alt="" width="24%"/>
+  </a>
+  <a href="img/photos/compressed/1-opening-1.jpg" 
+    data-pswp-width="1024" 
+    data-pswp-height="683" 
+    target="_blank">
+    <img src="img/photos/compressed/1-opening-1.jpg" alt="" width="24%"/>
+  </a>
+  <a href="img/photos/compressed/1-opening-2.jpg" 
+    data-pswp-width="1024" 
+    data-pswp-height="683" 
+    target="_blank">
+    <img src="img/photos/compressed/1-opening-2.jpg" alt="" width="24%"/>
+  </a>
+</div>
+
+
+
+
+
+
+
+
+
 
 <br>
 
