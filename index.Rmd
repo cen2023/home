@@ -27,6 +27,7 @@ In addition, [all video recordings of the keynotes are now also available](speak
 
 The final <b>[conference schedule](data/ConferenceSchedule%201.1.pdf)</b> and <b>[conference book](data/ConferenceBook%201.1.pdf) are available, as is the browsable <b>[conference program](https://www.conftool.pro/cen2023/sessions.php)</b>. 
 :::
+<br>
 <link rel="stylesheet" href="photoswipe/dist/photoswipe.css">
 
 <script type="module">
