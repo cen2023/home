@@ -112,10 +112,13 @@ output:
 
 ::: {#hello .greeting .message style="background-color: #F0F0F0; margin-top: 10px; padding-top: 10px; padding-left: 15px; padding-right: 15px; padding-bottom: 5px; margin-bottom: 10px; font-weight:bold;"}
 # Latest News
+Thank you again for contributing to the success of the CEN2023 conference in Basel! We are incredibly grateful to all our conference attendees, inspirational speakers, generous sponsors, student helpers and volunteers – everybody played a vital role in making this conference a success!
 
-Please be reminded that the Biometrical Journal will publish a Special Issue related to CEN 2023. Deadline for submission is December 15, 2023. Further details are available [here](https://onlinelibrary.wiley.com/page/journal/15214036/homepage/call_for_papers.html#CEN2023).
+If you want to remember the enjoyable moments, please browse through the selection of pictures from the conference above, or download all the photos made during the conference [as an archive](https://github.com/cen2023/home/raw/main/data/CEN2023.zip).
 
-Thank you for joining the conference. We are excited to inform you that the slides for the CEN 2023 conference are now [available on conftool after logging in](https://www.conftool.pro/cen2023/). We would like to emphasize that the availability of the slides is subject to the presenter's consent. We greatly appreciate the willingness of these presenters to contribute to the knowledge sharing within our conference community.
+Please be reminded that the Biometrical Journal will publish a Special Issue related to CEN2023. Upon multiple requests, the deadline for submission has been extended to January 15, 2024. Further details are available [here](https://onlinelibrary.wiley.com/page/journal/15214036/homepage/call_for_papers.html#CEN2023).
+
+The slides for the CEN 2023 conference are now [available on conftool after logging in](https://www.conftool.pro/cen2023/). We would like to emphasize that the availability of the slides is subject to the presenter's consent. We greatly appreciate the willingness of these presenters to contribute to the knowledge sharing within our conference community.
 
 In addition, [all video recordings of the keynotes are now also available](speakers.html).
 
