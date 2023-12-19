@@ -11,6 +11,8 @@ navbar:
           href: index.html
         - text: "Committees"
           href: committee.html
+        - text: "Gallery"
+          href: gallery/index.html
           
     - text: "Conference information"
       menu:

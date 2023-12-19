@@ -114,7 +114,7 @@ output:
 # Latest News
 Thank you again for contributing to the success of the CEN2023 conference in Basel! We are incredibly grateful to all our conference attendees, inspirational speakers, generous sponsors, student helpers and volunteers – everybody played a vital role in making this conference a success!
 
-If you want to remember the enjoyable moments, please browse through the selection of pictures from the conference above, or download all the photos made during the conference [as an archive](https://github.com/cen2023/home/raw/main/data/CEN2023.zip).
+If you want to remember the enjoyable moments, please browse through the selection of pictures from the conference above, or through the [full gallery](gallery/index.html).
 
 Please be reminded that the Biometrical Journal will publish a Special Issue related to CEN2023. Upon multiple requests, the deadline for submission has been extended to January 15, 2024. Further details are available [here](https://onlinelibrary.wiley.com/page/journal/15214036/homepage/call_for_papers.html#CEN2023).
 
